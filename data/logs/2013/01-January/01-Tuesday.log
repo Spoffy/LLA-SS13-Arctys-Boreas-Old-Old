@@ -1,0 +1,731 @@
+
+
+Starting up. 16:48.28
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 103,138,1 in Central Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (103,138,1)
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Car's movement_delay to 1
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 17:03.46
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to *no client*/(monkey (981))
+ACCESS: Logout: *no client*/(Jaylen Costello)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) healed / revived *no client*/(Jaylen Costello)
+ACCESS: Logout: *no client*/(Jaylen Costello)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 77,131,1 in Port Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (74,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (74,131,1)
+ACCESS: Login: RawrTaicho/(RawrTaicho) from 94.15.55.4
+ACCESS: Logout: *no client*/(RawrTaicho)
+ACCESS: Login: RawrTaicho/(Micah Zoucks) from 94.15.55.4
+ADMIN: Gamer_cad/(Jaylen Costello) teleported RawrTaicho/(Micah Zoucks) to Port Primary Hallway
+SAY: Jaylen Costello/Gamer_cad : G&#39;day.
+SAY: Micah Zoucks/RawrTaicho : heal meee
+SAY: Jaylen Costello/Gamer_cad : Care for a tram?
+ADMIN: Gamer_cad/(Jaylen Costello) healed / revived RawrTaicho/(Micah Zoucks)
+SAY: Micah Zoucks/RawrTaicho : how do i board it
+SAY: Jaylen Costello/Gamer_cad : Right click, enter.
+ACCESS: Login: Cannibalcrow/(Cannibalcrow) from 69.118.24.221
+ADMIN: Cannibalcrow/(Cannibalcrow) : Guh
+ACCESS: Logout: *no client*/(Cannibalcrow)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+SAY: Micah Zoucks/RawrTaicho : VROOOOM
+ADMIN: RawrTaicho/(Micah Zoucks) : I FELL OUT THE TRAM
+ADMIN: RawrTaicho/(Micah Zoucks) : WHAT THE TITS
+ADMIN: Gamer_cad/(Jaylen Costello) : You hit a key.
+ADMIN: Cannibalcrow/(Hannibal) : Ohwow, isn&#39;t this just mars station..The arrival area looks super familiar
+SAY: Jaylen Costello/Gamer_cad : Your tram rammed mine!
+SAY: Jaylen Costello/Gamer_cad : Suiing for damages!
+SAY: Jaylen Costello/Gamer_cad : Stop hitting keys :P
+SAY: Hannibal/Cannibalcrow : ;HEY
+SAY: Micah Zoucks/RawrTaicho : VROOOOOOOOOOOOOOOOOOOOOOOOM
+SAY: Hannibal/Cannibalcrow : ;HALT
+SAY: Hannibal/Cannibalcrow : ;IN THE NAME OF THE LAW
+OOC: Jaylen Costello/Gamer_cad : Trams will stop if you push the key opposite to their direction of travel.
+ADMIN: Cannibalcrow/(Hannibal) : I&#39;m already envisioning &#39;tram chases&#39;
+ADMIN: RawrTaicho/(Micah Zoucks) : what variable is the er
+ADMIN: RawrTaicho/(Micah Zoucks) : speed
+ACCESS: Login: Sishio/(Sishio) from 39.47.141.213
+ADMIN: Cannibalcrow/(Hannibal) : &gt;Traitor on tram 5 feet ahead&gt;Security in tram 5 feet behind
+OOC: Jaylen Costello/Gamer_cad : If you push a key to one of the sides, you&#39;ll leave the tram.
+ADMIN: Cannibalcrow/(Hannibal) : &gt;Highspeed tram chase
+ADMIN: Gamer_cad/(Jaylen Costello) : Can&#39;t shoot from trams though.
+ADMIN: RawrTaicho/(Micah Zoucks) : Can youu imagine. &#39;GET THAT FUCKING CLOWN&#39; shouts the Security Officer as the Clown honks, whizzing away on a tram.
+ADMIN: Gamer_cad/(Jaylen Costello) : YOu&#39;re technically inside it.
+ACCESS: Logout: *no client*/(Sishio)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+SAY: Jaylen Costello/Gamer_cad : How did I even.
+SAY: Jaylen Costello/Gamer_cad : Graphical bug. Somehow. when I bumped you on the corner.
+ADMIN: Cannibalcrow/(Hannibal) : Woah. This bridge is odd
+SAY: Micah Zoucks/RawrTaicho : fuker
+SAY: Giovanni Gray/Sishio : HEY
+SAY: Giovanni Gray/Sishio : YOU&#39;RE UNDER ARREST
+SAY: Jaylen Costello/Gamer_cad : Speed is movement_delay.
+SAY: Giovanni Gray/Sishio : FOR SPEEDING
+SAY: Jaylen Costello/Gamer_cad : Run!
+SAY: Micah Zoucks/RawrTaicho : WOOOOOOOOOOOOO NELLY
+OOC: Micah Zoucks/RawrTaicho : my sides
+OOC: Micah Zoucks/RawrTaicho : oh my fucking god
+OOC: Jaylen Costello/Gamer_cad : Tram code is suprisingly long. About 300 lines.
+SAY: Hannibal/Cannibalcrow : ;HALT CRIMINAL
+SAY: Giovanni Gray/Sishio : UNDER ARREST
+SAY: Hannibal/Cannibalcrow : YOU&#39;RE TRAPPED
+SAY: Jaylen Costello/Gamer_cad : ;FLeeeee!
+SAY: Hannibal/Cannibalcrow : Huzzah
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Car's movement_delay to 1.5
+SAY: Hannibal/Cannibalcrow : How do I get in
+SAY: Jaylen Costello/Gamer_cad : BUmp.
+ADMIN: Cannibalcrow/(Hannibal) : how 2 get in
+SAY: Jaylen Costello/Gamer_cad : Turbo-tram!
+ADMIN: Gamer_cad/(Jaylen Costello) : Right click, enter.
+ACCESS: Logout: RawrTaicho/(Micah Zoucks)
+SAY: Giovanni Gray/Sishio : PERFECT.
+ADMIN: Cannibalcrow/(Hannibal) : Is any of this designed by us? Or is this like, mars station? It looks very familiar
+ADMIN: Gamer_cad/(Jaylen Costello) : Map is all mars.
+ADMIN: Cannibalcrow/(Hannibal) : Thought so
+ADMIN: Gamer_cad/(Jaylen Costello) : Trams were me.
+ADMIN: Cannibalcrow/(Hannibal) : Awful
+SAY: Jaylen Costello/Gamer_cad : EEEP!
+SAY: Hannibal/Cannibalcrow : Awe yeah
+SAY: Jaylen Costello/Gamer_cad : Two people can board y&#39;know.;
+ADMIN: Sishio/(Giovanni Gray) : I&#39;m in ur trams
+SAY: Hannibal/Cannibalcrow : Move your fat ass
+SAY: Hannibal/Cannibalcrow : Dick
+SAY: Jaylen Costello/Gamer_cad : We should both be able to steer.
+ADMIN: Sishio/(Giovanni Gray) : Oh
+ADMIN: Sishio/(Giovanni Gray) : Trams are off center
+ADMIN: Sishio/(Giovanni Gray) : Look
+SAY: Hannibal/Cannibalcrow : HI HO SILVER
+ADMIN: Sishio/(Giovanni Gray) : The icon is off
+SAY: Jaylen Costello/Gamer_cad : hehe.
+SAY: Jaylen Costello/Gamer_cad : I haven&#39;t limited it yet.
+ADMIN: Sishio/(Giovanni Gray) : By about 2 pixels
+ADMIN: Cannibalcrow/(Hannibal) : A tad yeah
+SAY: Hannibal/Cannibalcrow : ;OH NOOOO
+SAY: Jaylen Costello/Gamer_cad : IN!
+SAY: Hannibal/Cannibalcrow : PPFFF
+SAY: Jaylen Costello/Gamer_cad : NOW!
+SAY: Hannibal/Cannibalcrow : WHAT THE FUCK
+ADMIN: Sishio/(Giovanni Gray) : Oh god
+SAY: Hannibal/Cannibalcrow : IS THAT SOUND
+SAY: Jaylen Costello/Gamer_cad : FLEEEE
+ADMIN: Cannibalcrow/(Hannibal) : LOL
+ADMIN: Cannibalcrow/(Hannibal) : TASER
+ADMIN: Sishio/(Giovanni Gray) : That is adorable
+ADMIN: Cannibalcrow/(Hannibal) : PTEW
+SAY: Hannibal/Cannibalcrow : ;RAPE
+ADMIN: Gamer_cad/(Jaylen Costello) : It&#39;s clearly an awesome source though.
+ADMIN: Cannibalcrow/(Hannibal) : You&#39;re doing no damage to me. Lolwat
+ADMIN: Sishio/(Giovanni Gray) : Doing no damage
+ADMIN: Sishio/(Giovanni Gray) : What the fuck
+SAY: Hannibal/Cannibalcrow : lol. Weird.
+ADMIN: Gamer_cad/(Jaylen Costello) : What do you mean?
+SAY: Jaylen Costello/Gamer_cad : Heh
+ADMIN: Cannibalcrow/(Hannibal) : I can&#39;t get injured.
+ADMIN: Sishio/(Giovanni Gray) : He beat me like 15 times
+OOC: Jaylen Costello/Gamer_cad : Anyone else noticed this bug?
+OOC: Jaylen Costello/Gamer_cad : Hannibal:  lol. Weird.
+ADMIN: Sishio/(Giovanni Gray) : Only at light yellow
+OOC: Jaylen Costello/Gamer_cad : No quotation marks or says?
+ADMIN: Cannibalcrow/(Hannibal) : I always get You have been protected from a hit to the head.
+SAY: Hannibal/Cannibalcrow : Huh
+ADMIN: Gamer_cad/(Jaylen Costello) : LOL.
+OOC: Hannibal/Cannibalcrow : I see the quotes
+OOC: Jaylen Costello/Gamer_cad : For other people&#39;s speech?
+SAY: Jaylen Costello/Gamer_cad : Test
+ADMIN: Cannibalcrow/(Hannibal) : NOW I&#39;m taking damage
+ADMIN: Sishio/(Giovanni Gray) : Targeted your leg
+OOC: Jaylen Costello/Gamer_cad : Yeah, the source is a tad buggy
+ADMIN: Cannibalcrow/(Hannibal) : The fuck is this Check OWL shit
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Cannibalcrow/(Hannibal) healed / revived *no client*/(Hannibal)
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+OOC: Jaylen Costello/Gamer_cad : OWL was apparently their Perseus.
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+OOC: Jaylen Costello/Gamer_cad : Or so says the code.
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+OOC: Hannibal/Cannibalcrow : &gt;Owl
+OOC: Jaylen Costello/Gamer_cad : Elite sec.
+OOC: Giovanni Gray/Sishio : HOOT
+OOC: Giovanni Gray/Sishio : HOOT HOOOOT
+OOC: Hannibal/Cannibalcrow : Lol. Feels like we&#39;re exploring some ancient texts
+OOC: Jaylen Costello/Gamer_cad : It does. So much to discover.
+OOC: Hannibal/Cannibalcrow : &#34;And OWL was teh ancient Mars stations elite security team..&#34;
+OOC: Giovanni Gray/Sishio : Inb4 we release an ancient griffer
+SAY: Jaylen Costello/Gamer_cad : Heh.
+SAY: Hannibal/Cannibalcrow : Nigga stole your tram
+SAY: Hannibal/Cannibalcrow : Peace bithces
+SAY: Jaylen Costello/Gamer_cad : Hehe.
+SAY: Jaylen Costello/Gamer_cad : Tram thief.
+SAY: Hannibal/Cannibalcrow : ;OH GOD SO FAST
+SAY: Hannibal/Cannibalcrow : ;I actually like this speed. Maybe a TINY bit slower
+SAY: Jaylen Costello/Gamer_cad : ; I modified the movement_delay
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Sishio/(Giovanni Gray) created a /obj/item/weapon/nuclear/leadbox and /obj/item/weapon/nuclear/plutonium
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+SAY: Jaylen Costello/Gamer_cad : ;Normal trams it&#39;s a 3/10ths of a second delay. That&#39;s a 1.5/10ths.
+SAY: Jaylen Costello/Gamer_cad : I AM IMMORTAL
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Car's movement_delay to 2
+OOC: Jaylen Costello/Gamer_cad : Try that speed.
+ADMIN: Cannibalcrow/(Hannibal) : Now the thing with this tram circuit here, is it defeats the purpose slightly, when you&#39;re forced to go ALL THE WAY AROUND to get to somewhere. Track switches or something could be nice
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Sishio/(Giovanni Gray) created a /obj/item/weapon/gun/energy/teleport_gun
+ADMIN: Sishio/(Giovanni Gray) created a /obj/item/weapon/gun/energy/teleport_gun
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Cannibalcrow/(Hannibal) : Movement looks more glitchy now
+ADMIN: Gamer_cad/(Jaylen Costello) : oh, definitely. This was here so I didn&#39;t have to keep spawning tracks everytime I loaded up.
+ADMIN: Gamer_cad/(Jaylen Costello) : I actually slowed it down.
+SAY: Hannibal/Cannibalcrow : ;OH YOU DICKS
+SAY: Hannibal/Cannibalcrow : ;I&#39;M IN...SNOW
+ACCESS: Login: RawrTaicho/(Micah Zoucks) from 94.6.105.246
+SAY: Giovanni Gray/Sishio : TIME OUT
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+SAY: Giovanni Gray/Sishio : Mine ran out
+SAY: Giovanni Gray/Sishio : Let me ed-
+SAY: Giovanni Gray/Sishio : Fuck beepsky
+ADMIN: Cannibalcrow/(Hannibal) teleported *no client*/(Hannibal) to Tool Storage
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+SAY: Micah Zoucks/RawrTaicho : VROOOM
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Cannibalcrow/(Hannibal) healed / revived *no client*/(Hannibal)
+SAY: Jaylen Costello/Gamer_cad : Damnit.
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Cannibalcrow/(Hannibal) : Ohgod this view variable screen.
+ADMIN: Sishio/(Giovanni Gray) : One of you delete beepsky
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Cannibalcrow/(Hannibal) : I forgot it was like this
+ADMIN: Cannibalcrow/(Hannibal) modified Hannibal's bodytemperature to 310.055
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: RawrTaicho/(Micah Zoucks) : THESE TRAMS ARE SO COOL
+ADMIN: Gamer_cad/(Jaylen Costello) : Thanks :D
+ACCESS: Logout: RawrTaicho/(Micah Zoucks)
+ADMIN: Cannibalcrow/(Hannibal) : Original icons or?
+ACCESS: Login: Pbrandon1/(Pbrandon1) from 108.128.97.229
+ADMIN: Gamer_cad/(Jaylen Costello) : Reskinned icon&#39;s Nori passed us.
+ADMIN: Sishio/(Giovanni Gray) : Chaz reskinned them
+ADMIN: Sishio/(Giovanni Gray) : OH GOD FUCK
+ADMIN: Cannibalcrow/(Hannibal) : THe icon from front to side doesn&#39;t seem very consistent though
+ADMIN: Sishio/(Giovanni Gray) : CAD DELETE BEEPSKY
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Cannibalcrow/(Hannibal) jumped to Sishio/(Giovanni Gray)
+ADMIN: Gamer_cad/(Jaylen Costello) : Kk. And why isn&#39;t it consistent?
+ADMIN: Cannibalcrow/(Hannibal) : I mean like..
+ADMIN: Cannibalcrow/(Hannibal) : dunno. They don&#39;t look like they match up
+ACCESS: Logout: *no client*/(Pbrandon1)
+ACCESS: Login: Pbrandon1/(Jacob Clarke) from 108.128.97.229
+ADMIN: Gamer_cad/(Jaylen Costello) : Back to side doesn&#39;t.
+ADMIN: Sishio/(Giovanni Gray) created 20ea /obj/item/weapon/gun/energy/teleport_gun
+ADMIN: Gamer_cad/(Jaylen Costello) : I had to delete a bit to make it layer right.
+ADMIN: Cannibalcrow/(Hannibal) : Yeah.
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Cannibalcrow/(Hannibal) : wat
+ADMIN: Gamer_cad/(Jaylen Costello) : Though, since I fixed it, I might be able to put it back in/
+ADMIN: Sishio/(Giovanni Gray) : What/
+ADMIN: Cannibalcrow/(Hannibal) : &gt;Click prison
+ADMIN: Cannibalcrow/(Hannibal) : &gt;It kills him
+ADMIN: Sishio/(Giovanni Gray) : What the fuck
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Gamer_cad/(Jaylen Costello) : Where... IS beepsky?
+SAY: Hannibal/Cannibalcrow : ;HOW DO YOU LIKE IT BITCH?
+OOC: Jacob Clarke/Pbrandon1 : Well, this is interesing.
+ADMIN: Gamer_cad/(Jaylen Costello) : WHERE IS BEEPSKY? BEEPSKY HUNT.
+OOC: Jaylen Costello/Gamer_cad : Wait.
+OOC: Jaylen Costello/Gamer_cad : Wut.
+ADMIN: Sishio/(Giovanni Gray) : Fuck
+OOC: Jaylen Costello/Gamer_cad : Who.
+ADMIN: Sishio/(Giovanni Gray) : YOU LISTED IT
+OOC: Jacob Clarke/Pbrandon1 : I must be tresspassing.
+OOC: Giovanni Gray/Sishio : Yes
+OOC: Hannibal/Cannibalcrow : ...GG
+ACCESS: Logout: Pbrandon1/(Jacob Clarke)
+OOC: Jaylen Costello/Gamer_cad : You are, I&#39;m afraid. 
+OOC: Jaylen Costello/Gamer_cad : Mind errr... sauntering?
+OOC: Hannibal/Cannibalcrow : He&#39;s gone
+ADMIN: Sishio/(Giovanni Gray) : 10/10 crow
+OOC: Jaylen Costello/Gamer_cad : Sorry.
+OOC: Jaylen Costello/Gamer_cad : It&#39;s invisible now.
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Cannibalcrow/(Hannibal) : What, Sish?
+ADMIN: Sishio/(Giovanni Gray) healed / revived *no client*/(Giovanni Gray)
+ADMIN: Sishio/(Giovanni Gray) teleported *no client*/(Giovanni Gray) to Tool Storage
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Cannibalcrow/(Hannibal) : GG WHAT?
+ADMIN: Cannibalcrow/(Hannibal) : Also
+ADMIN: Cannibalcrow/(Hannibal) : That lead tube icon
+ADMIN: Cannibalcrow/(Hannibal) : Perfect
+ADMIN: Sishio/(Giovanni Gray) teleported *no client*/(Giovanni Gray)
+ADMIN: Cannibalcrow/(Hannibal) : Wouldn&#39;t change it ever.
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Cannibalcrow/(Hannibal) : 2slo
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Sishio/(Giovanni Gray) teleported *no client*/(Giovanni Gray)
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Cannibalcrow/(Hannibal) : BEEPSKYYYY
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Gamer_cad/(Jaylen Costello) : WHERE IS HE?
+ADMIN: Cannibalcrow/(Officer Beepsky) : don&#39;t have delete verb
+ACCESS: Logout: *no client*/(Officer Beepsky)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Sishio/(Giovanni Gray) : Here
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 109,131,1 in Security Checkpoint
+ADMIN: Sishio/(Giovanni Gray) : Come here
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to Sishio/(Giovanni Gray)
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to Cannibalcrow/(Hannibal)
+ADMIN: Sishio/(Giovanni Gray) : Sec checkpoint
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Officer Beepsky at (118,126,1)
+ADMIN: Sishio/(Giovanni Gray) : Why do I not have jump to
+ADMIN: Sishio/(Giovanni Gray) : What the fuck?
+ADMIN: Gamer_cad/(Jaylen Costello) : It&#39;s under Special verbs.
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Gamer_cad/(Jaylen Costello) : Weirdly.
+ADMIN: Cannibalcrow/(Hannibal) : He turned it off you dummy
+ADMIN: Sishio/(Giovanni Gray) healed / revived *no client*/(Giovanni Gray)
+ADMIN: Gamer_cad/(Jaylen Costello) : I must&#39;ve missed it when I sorted it.
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Cannibalcrow/(Hannibal) : Ideas for mining. Honk.
+ADMIN: Sishio/(Giovanni Gray) healed / revived *no client*/(Giovanni Gray)
+ADMIN: Sishio/(Giovanni Gray) teleported *no client*/(Giovanni Gray) to Security Checkpoint
+ADMIN: Cannibalcrow/(Hannibal) : A little outpost a while away. And a mineshaft elevator thing. Yespls
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Gamer_cad/(Jaylen Costello) : Mining is currently 100% broken.
+ADMIN: Cannibalcrow/(Hannibal) : STRAIGHT DOWN INTO THE PLANET
+ADMIN: Gamer_cad/(Jaylen Costello) : Nah.
+ADMIN: Cannibalcrow/(Hannibal) : yespls
+ADMIN: Cannibalcrow/(Hannibal) : CAVES
+ADMIN: Gamer_cad/(Jaylen Costello) : Miners should hunt down their ore.
+ADMIN: Gamer_cad/(Jaylen Costello) : Then set up a mining base.
+ADMIN: Gamer_cad/(Jaylen Costello) : And/or use a mining vehicle.
+ADMIN: Cannibalcrow/(Hannibal) : ..Then straight down?
+ADMIN: Cannibalcrow/(Hannibal) : &lt;3
+ADMIN: Gamer_cad/(Jaylen Costello) : Yeah.
+ADMIN: Cannibalcrow/(Hannibal) : I want caaaves
+ADMIN: Gamer_cad/(Jaylen Costello) : We&#39;re multiflooring.
+ADMIN: Cannibalcrow/(Hannibal) : ...mfw there&#39;s drills like I thought. Except uglier
+ADMIN: Cannibalcrow/(Hannibal) : Ohboy..Multiple z-levels for the station you mean?
+ADMIN: Gamer_cad/(Jaylen Costello) : For all the levels.
+ADMIN: Gamer_cad/(Jaylen Costello) : Yeah.
+ADMIN: Cannibalcrow/(Hannibal) : That didn&#39;t work so well on that one station..IMO
+ADMIN: Gamer_cad/(Jaylen Costello) : Depends if it&#39;s implemented right.
+ADMIN: Cannibalcrow/(Hannibal) : I didn&#39;t like it, personally. But, whatever~
+ADMIN: Cannibalcrow/(Hannibal) : -shrug
+ADMIN: Gamer_cad/(Jaylen Costello) : We&#39;ll do it right, don&#39;t worry.
+ADMIN: Cannibalcrow/(Hannibal) : If there is multiple levels like that, I would prefer anything on the second floor be..Smaller, less important shit.
+ADMIN: Cannibalcrow/(Hannibal) : Storage closets, maybe a dorm, etc.
+ADMIN: Cannibalcrow/(Hannibal) : just IMO
+SAY: Hannibal/Cannibalcrow : ;DOOOOOR
+ADMIN: Gamer_cad/(Jaylen Costello) : Yeah. I was more thinking down than up.
+ADMIN: Cannibalcrow/(Hannibal) : Either way.
+ADMIN: Cannibalcrow/(Hannibal) : ..So..They dug out cellars? Or, the station imbedded itself in the ground?&gt;&gt;
+ADMIN: Gamer_cad/(Jaylen Costello) : BIt of both, I imagine.
+ADMIN: Cannibalcrow/(Hannibal) : OHGOD THESE THINGS
+ADMIN: Cannibalcrow/(Hannibal) : LOL.
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Cannibalcrow/(Hannibal) created a /obj/item/clothing/suit/space
+ADMIN: Cannibalcrow/(Hannibal) created a /obj/item/clothing/head/helmet/space
+ADMIN: Cannibalcrow/(Hannibal) created a /obj/item/weapon/tank/emergency_oxygen
+ADMIN: Cannibalcrow/(Hannibal) created a /obj/item/clothing/mask/gas
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Gamer_cad/(Jaylen Costello) : I now have the joy of making trams into trains.
+ADMIN: Gamer_cad/(Jaylen Costello) : This&#39;ll be... fun.
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Cannibalcrow/(Hannibal) : my ghost disappears in the snow. Hue.
+ADMIN: Cannibalcrow/(Hannibal) teleported *no client*/(Hannibal)
+ADMIN: Cannibalcrow/(Hannibal) : Not literally.
+ADMIN: Sishio/(Giovanni Gray) : Camoflauge
+ADMIN: Cannibalcrow/(Hannibal) : It&#39;s just so white
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Cannibalcrow/(Hannibal) : OHFUCKYEAH
+ADMIN: Cannibalcrow/(Hannibal) : Dis movement speed
+ADMIN: Sishio/(Giovanni Gray) : Cad
+ADMIN: Sishio/(Giovanni Gray) : Come here
+ADMIN: Sishio/(Giovanni Gray) : Your trams are layered above the darkness
+ADMIN: Sishio/(Giovanni Gray) : Well the up/down ones are
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to Sishio/(Giovanni Gray)
+ADMIN: Cannibalcrow/(Hannibal) teleported *no client*/(Hannibal)
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Gamer_cad/(Jaylen Costello) : So they are.
+SAY: Hannibal/Cannibalcrow : I love these
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Cannibalcrow/(Hannibal) teleported *no client*/(Hannibal)
+ACCESS: Logout: *no client*/(Hannibal)
+ACCESS: Login: Cannibalcrow/(Hannibal) from 69.118.24.221
+ADMIN: Sishio/(Giovanni Gray) : Never gets old
+ADMIN: Sishio/(Giovanni Gray) : These guns are the best things ever
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 107,117,1 in Aft Primary Hallway
+ADMIN: Cannibalcrow/(Hannibal) : Hover Jeep
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to Sishio/(Giovanni Gray)
+ADMIN: Cannibalcrow/(Hannibal) : Reicon, make them into like..Regular jeeps. All beaten up though.
+ADMIN: Cannibalcrow/(Hannibal) : And onl give teh station 1 or 2
+ADMIN: Sishio/(Giovanni Gray) : Hm
+ADMIN: Sishio/(Giovanni Gray) : Are we done testin&#39;?
+ADMIN: Cannibalcrow/(Hannibal) : Have you seen the jeeeeeps?
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+ADMIN: Gamer_cad/(Jaylen Costello) : Hrrrm. I need to know what layer the lighting is on.
+ADMIN: Sishio/(Giovanni Gray) jumped to Cannibalcrow/(Hannibal)
+ADMIN: Sishio/(Giovanni Gray) : Yes
+ADMIN: Cannibalcrow/(Hannibal) : layer 0
+ADMIN: Cannibalcrow/(Hannibal) : ?
+ADMIN: Cannibalcrow/(Hannibal) : Honk
+ADMIN: Gamer_cad/(Jaylen Costello) : 10 I think.
+ADMIN: Cannibalcrow/(Hannibal) : Idunno i just checked the variables of a shadow. Hue.
+ADMIN: Gamer_cad/(Jaylen Costello) : I&#39;ll fiddle with it.
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Car's layer to 11
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Car's layer to 9
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Car's layer to 5
+ADMIN: Cannibalcrow/(Hannibal) :  we need to change the lobby music too. I:
+ADMIN: Cannibalcrow/(Hannibal) : use one of crows suggestions. Good idea.&lt;3
+ADMIN: Gamer_cad/(Jaylen Costello) : Sorted.
+ADMIN: Cannibalcrow/(Hannibal) : What, lobby music? Or the layers?
+ACCESS: Logout: Cannibalcrow/(Hannibal)
+ADMIN: Gamer_cad/(Jaylen Costello) : Layers/.
+ACCESS: Logout: Sishio/(Giovanni Gray)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 18:17.48
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 108,118,1 in Aft Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 106,126,1 in Central Primary Hallway
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 18:20.21
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 78,162,1 in Mailroom
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (59,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (74,133,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 18:23.32
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ACCESS: Logout: *no client*/(Jaylen Costello)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) healed / revived *no client*/(Jaylen Costello)
+ADMIN: Gamer_cad/(Jaylen Costello) teleported *no client*/(Jaylen Costello) to Atmospherics
+ACCESS: Logout: *no client*/(Jaylen Costello)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) healed / revived Gamer_cad/(Jaylen Costello)
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 108,102,1 in Atmospherics
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 108,97,1 in Engine Room
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 108,96,1 in Engine Room
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 111,94,1 in Engine Room
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 117,97,1 in Engine Room
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 117,104,1 in Aft Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 115,111,1 in Aft Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 106,116,1 in Aft Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 106,124,1 in Aft Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (106,126,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (105,126,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 18:27.25
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 93,131,1 in Port Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (93,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (92,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Tram Car at (107,139,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (108,138,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (108,139,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (57,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (56,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (55,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (66,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (65,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (64,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (63,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (69,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (68,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (67,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (66,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (65,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (64,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (63,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Tram at (57,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Tram at (56,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Tram at (55,131,1)
+ACCESS: Login: Sishio/(Sishio) from 39.47.141.213
+ACCESS: Logout: *no client*/(Sishio)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+OOC: Jaylen Costello/Gamer_cad : SIIISH
+ADMIN: Gamer_cad/(Jaylen Costello) teleported Sishio/(Giovanni Gray)
+SAY: Jaylen Costello/Gamer_cad : Might wanna move aside.
+SAY: Jaylen Costello/Gamer_cad : Train thief.
+ADMIN: Sishio/(Giovanni Gray) : Hahahahaha oh god
+ADMIN: Sishio/(Giovanni Gray) : Best thing ever
+ADMIN: Gamer_cad/(Jaylen Costello) : How awesome is this?
+ADMIN: Sishio/(Giovanni Gray) : CHOO CHOO
+ADMIN: Gamer_cad/(Jaylen Costello) : No reverse yet.
+SAY: Jaylen Costello/Gamer_cad : Hop in the second car.
+ACCESS: Logout: *no client*/(Giovanni Gray)
+ACCESS: Login: Sishio/(Giovanni Gray) from 39.47.141.213
+SAY: Jaylen Costello/Gamer_cad : Or not.
+OOC: Jaylen Costello/Gamer_cad : Get Chaz to make me icons for railway cars.
+ADMIN: Sishio/(Giovanni Gray) : I&#39;m gonna go watch some stuff
+OOC: Giovanni Gray/Sishio : Mmk
+OOC: Jaylen Costello/Gamer_cad : I need a storage car and a passenger one.
+OOC: Jaylen Costello/Gamer_cad : The passenger one just needs to be a control-less normal tram.
+OOC: Jaylen Costello/Gamer_cad : The storage one needs to be like the mule.
+OOC: Giovanni Gray/Sishio : k, byes]
+ACCESS: Logout: Sishio/(Giovanni Gray)
+OOC: Jaylen Costello/Gamer_cad : &lt;3 Byeee
+ACCESS: Login: RawrTaicho/(RawrTaicho) from 94.6.103.72
+ACCESS: Logout: RawrTaicho/(RawrTaicho)
+ACCESS: Login: RawrTaicho/(RawrTaicho) from 94.6.103.72
+ACCESS: Logout: *no client*/(RawrTaicho)
+ACCESS: Login: RawrTaicho/(Micah Zoucks) from 94.6.103.72
+SAY: Micah Zoucks/RawrTaicho : what
+SAY: Micah Zoucks/RawrTaicho : omfg
+SAY: Jaylen Costello/Gamer_cad : Yo.
+SAY: Jaylen Costello/Gamer_cad : Whatcha think?
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /turf/simulated/wall at (109,138,1)
+SAY: Micah Zoucks/RawrTaicho : VROOOOOOM MOTHER FUCKERRRRRRR
+SAY: Jaylen Costello/Gamer_cad : Drive me!
+ADMIN: Gamer_cad/(Jaylen Costello) deleted the wall at (109,138,1)
+SAY: Jaylen Costello/Gamer_cad : WHEEEE
+SAY: Jaylen Costello/Gamer_cad : Ignore the icon bug. I just fixed it.
+SAY: Jaylen Costello/Gamer_cad : Choo choo.
+SAY: Jaylen Costello/Gamer_cad : Apologies for the lack of reverse. I didn&#39;t quite get around to it yet.
+SAY: Jaylen Costello/Gamer_cad : This second one is actually powered.
+SAY: Jaylen Costello/Gamer_cad : So what if I start pushing buttons?
+SAY: Jaylen Costello/Gamer_cad : Absolutely nothing.
+SAY: Jaylen Costello/Gamer_cad : I suspect I&#39;m actually pulling the other way.
+SAY: Jaylen Costello/Gamer_cad : There is actually a fair amount of CPU being used to move all of these trams.
+SAY: Jaylen Costello/Gamer_cad : Ah, I know why/
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+ACCESS: Logout: RawrTaicho/(Micah Zoucks)
+
+
+Starting up. 21:48.19
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad/(Dor-15) initiated an immediate reboot.
+ACCESS: Logout: Gamer_cad/(Dor-15)
+
+
+Starting up. 21:49.09
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 192.168.1.85
+ACCESS: Logout: Gamer_cad/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 192.168.1.85
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 192.168.1.85
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 64,131,1 in Port Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /turf/simulated/wall at (67,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (62,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /turf/simulated/wall at (61,131,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 22:00.50
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 58,148,1 in Janitors Closet
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (58,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Tram at (58,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (58,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (84,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (83,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (82,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (81,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (58,133,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 22:20.18
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+
+
+Starting up. 22:21.08
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 107,119,1 in Aft Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 107,125,1 in Central Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (107,126,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Tram at (107,126,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (107,126,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 22:25.16
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 94,131,1 in Port Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (94,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /turf/simulated/wall at (87,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /turf/simulated/wall at (80,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Tram Rail at (80,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted the wall at (87,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /turf/simulated/floor at (87,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 87,131,1 in Port Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (85,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (84,131,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (83,131,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 22:44.08
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 103,138,1 in Central Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (104,138,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (103,138,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (102,138,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (101,138,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (106,146,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Passenger car at (108,142,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Passenger car at (110,138,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (106,144,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)

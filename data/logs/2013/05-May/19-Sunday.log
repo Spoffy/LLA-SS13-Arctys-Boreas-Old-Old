@@ -1,0 +1,16 @@
+
+
+Starting up. 00:08.08
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/machinery/kit_dispenser at (122,100,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/constructionkit/custom/cryo_cell at (121,100,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)

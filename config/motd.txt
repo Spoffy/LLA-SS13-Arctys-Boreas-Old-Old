@@ -1,0 +1,4 @@
+<h1>Welcome to Mars Station 13!</h1>
+
+This is a open Beta-Test, please report all bugs you find. <i>Thanks for testing</i><br>
+Since we went open source you can find us at <a href="https://code.google.com/p/mars-station-13/">https://code.google.com/p/mars-station-13/</a>

@@ -1,0 +1,787 @@
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: Cannot read "hand".type
+proc name: attackby (/obj/constructionkit/attackby)
+  source file: construction_kit_base.dm,72
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: Test Construction Kit (/obj/constructionkit/generated)
+  call stack:
+Test Construction Kit (/obj/constructionkit/generated): attackby("hand", Jaylen Costello (/mob/living/carbon/human))
+Test Construction Kit (/obj/constructionkit/generated): attack hand(Jaylen Costello (/mob/living/carbon/human), null)
+Test Construction Kit (/obj/constructionkit/generated): DblClick()
+Test Construction Kit (/obj/constructionkit/generated): Click(the floor (122,100,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=20;icon-y=10;left=1;scr...")
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: Cannot read "hand".type
+proc name: attackby (/obj/constructionkit/attackby)
+  source file: construction_kit_base.dm,72
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: DNA Modifier Access Console Co... (/obj/constructionkit/generated)
+  call stack:
+DNA Modifier Access Console Co... (/obj/constructionkit/generated): attackby("hand", Jaylen Costello (/mob/living/carbon/human))
+DNA Modifier Access Console Co... (/obj/constructionkit/generated): attack hand(Jaylen Costello (/mob/living/carbon/human), null)
+DNA Modifier Access Console Co... (/obj/constructionkit/generated): DblClick()
+DNA Modifier Access Console Co... (/obj/constructionkit/generated): Click(the floor (122,100,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=11;icon-y=8;left=1;scre...")
+World opened on network port 52601.
+Sun May 19 00:10:58 2013
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Hubert Hughes (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Hubert Hughes (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: Cannot read "hand".type
+proc name: attackby (/obj/constructionkit/attackby)
+  source file: construction_kit_base.dm,72
+  usr: Hubert Hughes (/mob/living/carbon/human)
+  src: Cigarette Machine Construction... (/obj/constructionkit/generated)
+  call stack:
+Cigarette Machine Construction... (/obj/constructionkit/generated): attackby("hand", Hubert Hughes (/mob/living/carbon/human))
+Cigarette Machine Construction... (/obj/constructionkit/generated): attack hand(Hubert Hughes (/mob/living/carbon/human), null)
+Cigarette Machine Construction... (/obj/constructionkit/generated): DblClick()
+Cigarette Machine Construction... (/obj/constructionkit/generated): Click(the floor (78,132,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=20;icon-y=11;left=1;scr...")
+runtime error: Cannot read "hand".type
+proc name: attackby (/obj/constructionkit/attackby)
+  source file: construction_kit_base.dm,72
+  usr: Hubert Hughes (/mob/living/carbon/human)
+  src: Cigarette Machine Construction... (/obj/constructionkit/generated)
+  call stack:
+Cigarette Machine Construction... (/obj/constructionkit/generated): attackby("hand", Hubert Hughes (/mob/living/carbon/human))
+Cigarette Machine Construction... (/obj/constructionkit/generated): attack hand(Hubert Hughes (/mob/living/carbon/human), null)
+Cigarette Machine Construction... (/obj/constructionkit/generated): DblClick()
+Cigarette Machine Construction... (/obj/constructionkit/generated): Click(the floor (78,132,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=18;icon-y=7;left=1;scre...")
+runtime error: Cannot read "hand".type
+proc name: attackby (/obj/constructionkit/attackby)
+  source file: construction_kit_base.dm,72
+  usr: Hubert Hughes (/mob/living/carbon/human)
+  src: Cigarette Machine Construction... (/obj/constructionkit/generated)
+  call stack:
+Cigarette Machine Construction... (/obj/constructionkit/generated): attackby("hand", Hubert Hughes (/mob/living/carbon/human))
+Cigarette Machine Construction... (/obj/constructionkit/generated): attack hand(Hubert Hughes (/mob/living/carbon/human), null)
+Cigarette Machine Construction... (/obj/constructionkit/generated): DblClick()
+Cigarette Machine Construction... (/obj/constructionkit/generated): Click(the floor (78,132,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=11;icon-y=13;left=1;scr...")
+runtime error: Cannot read "hand".type
+proc name: attackby (/obj/constructionkit/attackby)
+  source file: construction_kit_base.dm,72
+  usr: Hubert Hughes (/mob/living/carbon/human)
+  src: Cigarette Machine Construction... (/obj/constructionkit/generated)
+  call stack:
+Cigarette Machine Construction... (/obj/constructionkit/generated): attackby("hand", Hubert Hughes (/mob/living/carbon/human))
+Cigarette Machine Construction... (/obj/constructionkit/generated): attack hand(Hubert Hughes (/mob/living/carbon/human), null)
+Cigarette Machine Construction... (/obj/constructionkit/generated): DblClick()
+Cigarette Machine Construction... (/obj/constructionkit/generated): Click(the floor (78,132,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=10;icon-y=13;left=1;scr...")
+runtime error: Cannot read "hand".type
+proc name: attackby (/obj/constructionkit/attackby)
+  source file: construction_kit_base.dm,72
+  usr: Hubert Hughes (/mob/living/carbon/human)
+  src: Cigarette Machine Construction... (/obj/constructionkit/generated)
+  call stack:
+Cigarette Machine Construction... (/obj/constructionkit/generated): attackby("hand", Hubert Hughes (/mob/living/carbon/human))
+Cigarette Machine Construction... (/obj/constructionkit/generated): attack hand(Hubert Hughes (/mob/living/carbon/human), null)
+Cigarette Machine Construction... (/obj/constructionkit/generated): DblClick()
+Cigarette Machine Construction... (/obj/constructionkit/generated): Click(the floor (78,132,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=10;icon-y=13;left=1;scr...")
+runtime error: Cannot read "hand".type
+proc name: attackby (/obj/constructionkit/attackby)
+  source file: construction_kit_base.dm,72
+  usr: Hubert Hughes (/mob/living/carbon/human)
+  src: Cigarette Machine Construction... (/obj/constructionkit/generated)
+  call stack:
+Cigarette Machine Construction... (/obj/constructionkit/generated): attackby("hand", Hubert Hughes (/mob/living/carbon/human))
+Cigarette Machine Construction... (/obj/constructionkit/generated): attack hand(Hubert Hughes (/mob/living/carbon/human), null)
+Cigarette Machine Construction... (/obj/constructionkit/generated): DblClick()
+Cigarette Machine Construction... (/obj/constructionkit/generated): Click(the floor (78,132,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=10;icon-y=13;left=1;scr...")
+runtime error: pick() from empty list
+proc name: event (/proc/event)
+  source file: events.dm,25
+  usr: null
+  src: null
+  call stack:
+event()
+/datum/controller/gameticker (/datum/controller/gameticker): setup()
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+  usr: 0
+  src: the crushing unit (/obj/machinery/crusher/crusher)
+  call stack:
+the crushing unit (/obj/machinery/crusher/crusher): Bumped(the gibs (/obj/decal/cleanable/blood/gibs))
+the gibs (/obj/decal/cleanable/blood/gibs): Bump(the crushing unit (/obj/machinery/crusher/crusher), 1)
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+  usr: 0
+  src: the crushing unit (/obj/machinery/crusher/crusher)
+  call stack:
+the crushing unit (/obj/machinery/crusher/crusher): Bumped(the gibs (/obj/decal/cleanable/blood/gibs))
+the gibs (/obj/decal/cleanable/blood/gibs): Bump(the crushing unit (/obj/machinery/crusher/crusher), 1)
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+  usr: 0
+  src: the crushing unit (/obj/machinery/crusher/crusher)
+  call stack:
+the crushing unit (/obj/machinery/crusher/crusher): Bumped(the gibs (/obj/decal/cleanable/blood/gibs))
+the gibs (/obj/decal/cleanable/blood/gibs): Bump(the crushing unit (/obj/machinery/crusher/crusher), 1)
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+  usr: 0
+  src: the crushing unit (/obj/machinery/crusher/crusher)
+  call stack:
+the crushing unit (/obj/machinery/crusher/crusher): Bumped(the gibs (/obj/decal/cleanable/blood/gibs))
+the gibs (/obj/decal/cleanable/blood/gibs): Bump(the crushing unit (/obj/machinery/crusher/crusher), 1)
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+  usr: 0
+  src: the crushing unit (/obj/machinery/crusher/crusher)
+  call stack:
+the crushing unit (/obj/machinery/crusher/crusher): Bumped(the gibs (/obj/decal/cleanable/blood/gibs))
+the gibs (/obj/decal/cleanable/blood/gibs): Bump(the crushing unit (/obj/machinery/crusher/crusher), 1)
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+  usr: 0
+  src: the crushing unit (/obj/machinery/crusher/crusher)
+  call stack:
+the crushing unit (/obj/machinery/crusher/crusher): Bumped(the gibs (/obj/decal/cleanable/blood/gibs/core))
+the gibs (/obj/decal/cleanable/blood/gibs/core): Bump(the crushing unit (/obj/machinery/crusher/crusher), 1)
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+  usr: 0
+  src: the crushing unit (/obj/machinery/crusher/crusher)
+  call stack:
+the crushing unit (/obj/machinery/crusher/crusher): Bumped(the gibs (/obj/decal/cleanable/blood/gibs))
+the gibs (/obj/decal/cleanable/blood/gibs): Bump(the crushing unit (/obj/machinery/crusher/crusher), 1)
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+  usr: 0
+  src: the crushing unit (/obj/machinery/crusher/crusher)
+  call stack:
+the crushing unit (/obj/machinery/crusher/crusher): Bumped(the gibs (/obj/decal/cleanable/blood/gibs/body))
+the gibs (/obj/decal/cleanable/blood/gibs/body): Bump(the crushing unit (/obj/machinery/crusher/crusher), 1)
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+  usr: 0
+  src: the crushing unit (/obj/machinery/crusher/crusher)
+  call stack:
+the crushing unit (/obj/machinery/crusher/crusher): Bumped(the gibs (/obj/decal/cleanable/blood/gibs))
+the gibs (/obj/decal/cleanable/blood/gibs): Bump(the crushing unit (/obj/machinery/crusher/crusher), 1)
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+  usr: 0
+  src: the crushing unit (/obj/machinery/crusher/crusher)
+  call stack:
+the crushing unit (/obj/machinery/crusher/crusher): Bumped(the gibs (/obj/decal/cleanable/blood/gibs))
+the gibs (/obj/decal/cleanable/blood/gibs): Bump(the crushing unit (/obj/machinery/crusher/crusher), 1)
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/limb/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/limb/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/limb/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/limb/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/limb/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/limb/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/limb/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/limb/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/limb/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/body/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/core/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+runtime error: undefined variable /obj/decal/cleanable/blood/gibs/limb/var/g_amount
+proc name: Bumped (/obj/machinery/crusher/crusher/Bumped)
+  source file: crusher.dm,35
+Warning: further proc crash messages are being suppressed to prevent overload...
+Sat Jun 01 18:52:06 2013
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: list index out of bounds
+proc name: attack hand (/obj/machinery/power/nuclear_power/fuel_rod_control/attack_hand)
+  source file: reactor.dm,74
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control)
+  call stack:
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): attack hand(Jaylen Costello (/mob/living/carbon/human), null)
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): DblClick()
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): Click(the floor (118,88,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=16;icon-y=13;left=1;scr...")
+runtime error: list index out of bounds
+proc name: attack hand (/obj/machinery/power/nuclear_power/fuel_rod_control/attack_hand)
+  source file: reactor.dm,74
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control)
+  call stack:
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): attack hand(Jaylen Costello (/mob/living/carbon/human), 0)
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): DblClick()
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): Click(the floor (118,88,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=16;icon-y=12;left=1;scr...")
+runtime error: list index out of bounds
+proc name: attack hand (/obj/machinery/power/nuclear_power/fuel_rod_control/attack_hand)
+  source file: reactor.dm,74
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control)
+  call stack:
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): attack hand(Jaylen Costello (/mob/living/carbon/human), 0)
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): DblClick()
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): Click(the floor (118,88,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=16;icon-y=12;left=1;scr...")
+runtime error: list index out of bounds
+proc name: attack hand (/obj/machinery/power/nuclear_power/fuel_rod_control/attack_hand)
+  source file: reactor.dm,74
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control)
+  call stack:
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): attack hand(Jaylen Costello (/mob/living/carbon/human), 1)
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): DblClick()
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): Click(the floor (118,88,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=16;icon-y=12;left=1;scr...")
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: list index out of bounds
+proc name: attack hand (/obj/machinery/power/nuclear_power/fuel_rod_control/attack_hand)
+  source file: reactor.dm,78
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control)
+  call stack:
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): attack hand(Jaylen Costello (/mob/living/carbon/human), null)
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): DblClick()
+Fuel Rod Manager (/obj/machinery/power/nuclear_power/fuel_rod_control): Click(the floor (118,88,1) (/turf/simulated/floor), "mapwindow.map", "icon-x=16;icon-y=4;left=1;scre...")
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+Sat Jun 01 19:52:48 2013
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: type mismatch: cannot compare "Coder" to 2
+proc name: Topic (/obj/admins/Topic)
+  source file: admin.dm,577
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: the admins (/obj/admins)
+  call stack:
+the admins (/obj/admins): Topic("src=\[0x2001ecf];create_object...", /list (/list))
+Gamer_cad (/client): Topic("src=\[0x2001ecf];create_object...", /list (/list), the admins (/obj/admins))
+Gamer_cad (/client): Topic("src=\[0x2001ecf];create_object...", /list (/list), the admins (/obj/admins))
+runtime error: type mismatch: cannot compare "Coder" to 2
+proc name: Topic (/obj/admins/Topic)
+  source file: admin.dm,577
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: the admins (/obj/admins)
+  call stack:
+the admins (/obj/admins): Topic("src=\[0x2001ecf];create_object...", /list (/list))
+Gamer_cad (/client): Topic("src=\[0x2001ecf];create_object...", /list (/list), the admins (/obj/admins))
+Gamer_cad (/client): Topic("src=\[0x2001ecf];create_object...", /list (/list), the admins (/obj/admins))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+runtime error: undefined proc or verb /obj/machinery/power/nuclear_power/reactor//obj/machinery/power/nuclear_power/reactor/check_parts().
+
+proc name: Advanced ProcCall (/client/proc/callproc)
+  source file: debug.dm,43
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: Gamer_cad (/client)
+  call stack:
+Gamer_cad (/client): Advanced ProcCall()
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))
+World opened on network port 52601.
+runtime error: undefined proc or verb /datum/organ/external/chest/act add().
+
+proc name: add (/datum/anatomy/proc/add)
+  source file: anatomy.dm,16
+  usr: Jaylen Costello (/mob/living/carbon/human)
+  src: /datum/anatomy (/datum/anatomy)
+  call stack:
+/datum/anatomy (/datum/anatomy): add(chest (/datum/organ/external/chest))
+Jaylen Costello (/mob/living/carbon/human): New(the space (63,57,2) (/turf/space))

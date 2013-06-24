@@ -1,0 +1,211 @@
+
+
+Starting up. 00:13.10
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (81,159,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 00:20.09
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (54,157,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+ACCESS: Login: Guest-3061697504/(Guest-3061697504) from 127.0.0.1
+ACCESS: Notice: Guest-3061697504/(Guest-3061697504) has same IP address as Gamer_cad/(Jaylen Costello) did (Gamer_cad/(Jaylen Costello) is no longer logged in).
+ACCESS: Notice: Guest-3061697504/(Guest-3061697504) has same computer ID as Gamer_cad/(Jaylen Costello) did (Gamer_cad/(Jaylen Costello) is no longer logged in).
+ACCESS: Logout: Guest-3061697504/(Guest-3061697504)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ACCESS: Notice: Gamer_cad/(Jaylen Costello) has same IP address as Guest-3061697504/(Guest-3061697504) did (Guest-3061697504/(Guest-3061697504) is no longer logged in).
+ACCESS: Notice: Gamer_cad/(Jaylen Costello) has same computer ID as Guest-3061697504/(Guest-3061697504) did (Guest-3061697504/(Guest-3061697504) is no longer logged in).
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 01:46.52
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (81,158,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 13:36.06
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 78,162,1 in Mailroom
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 78,162,1 in Mailroom
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (81,160,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 13:38.18
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (102,143,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (107,146,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (107,145,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (107,145,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (106,145,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Tram Rail at (107,145,1)
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Rail's dir to 6
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Rail's dir to 2
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (106,145,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 13:42.20
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 117,103,1 in Aft Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (117,103,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (116,102,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (117,102,1)
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Rail's dir to 6
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Rail's dir to 2
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (116,102,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 13:47.08
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (58,132,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 14:02.49
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 95,132,1 in Port Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (94,132,1)
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Tram Car at (94,132,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (93,132,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (94,132,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (94,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Rail's dir to 2
+ADMIN: Gamer_cad/(Jaylen Costello) modified Tram Rail's dir to 6
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (93,132,1)
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 95,134,1 in Fore Maintenance
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 95,134,1 in Fore Maintenance
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 14:15.21
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 117,104,1 in Aft Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 110,112,1 in Aft Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 107,119,1 in Aft Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 108,126,1 in Central Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (112,128,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 18:11.51
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 105,157,1 in Head of Staff's Quarters
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (107,159,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (106,158,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/structure/tramline at (107,158,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (110,138,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)
+
+
+Starting up. 18:55.25
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ADMIN: Gamer_cad has started the game.
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 128,115,1 in Medical Research
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 123,122,1 in Medbay
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 116,132,1 in Starboard Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 112,132,1 in Central Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram at (112,132,1)
+ACCESS: Logout: Gamer_cad/(Jaylen Costello)

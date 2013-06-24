@@ -1,0 +1,249 @@
+
+
+Starting up. 22:40.17
+---------------------
+
+ADMIN: Loading jobban_rank
+ADMIN: jobban_keylist was empty
+ADMIN: Updating jobbanfile!
+ADMIN: Loading Banlist
+ACCESS: Login: Gamer_cad/(Gamer_cad) from 127.0.0.1
+ACCESS: Logout: *no client*/(Gamer_cad)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ACCESS: Login: Mord_Sith/(Mord_Sith) from 74.216.19.119
+OOC: Jaylen Costello/Gamer_cad : Yo.
+OOC: Jaylen Costello/Gamer_cad : Join as an engineer.
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 118,102,1 in Aft Primary Hallway
+ACCESS: Logout: *no client*/(Mord_Sith)
+ACCESS: Login: Mord_Sith/(Hubert Hughes) from 74.216.19.119
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 122,100,1 in Tool Storage
+OOC: Hubert Hughes/Mord_Sith : OH GOD NO AIR
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to Mord_Sith/(Hubert Hughes)
+OOC: Jaylen Costello/Gamer_cad : Oh, FYI.
+OOC: Jaylen Costello/Gamer_cad : We&#39;re making a totally new map.
+OOC: Hubert Hughes/Mord_Sith : Cold and no air in there...
+OOC: Hubert Hughes/Mord_Sith : Nice minecart track
+OOC: Jaylen Costello/Gamer_cad : This is the old one./
+OOC: Jaylen Costello/Gamer_cad : Yeah.
+OOC: Jaylen Costello/Gamer_cad : I&#39;ll get out the carts.
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/powered at (58,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (57,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/passenger at (56,133,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/tram/freight at (55,133,1)
+OOC: Jaylen Costello/Gamer_cad : Whoops.
+OOC: Jaylen Costello/Gamer_cad : Debugging code ther.e
+OOC: Jaylen Costello/Gamer_cad : Hehe.
+OOC: Hubert Hughes/Mord_Sith : Wow this thing is spammy
+OOC: Jaylen Costello/Gamer_cad : Hehe.
+OOC: Jaylen Costello/Gamer_cad : Debugging code.
+OOC: Jaylen Costello/Gamer_cad : Sorry.
+OOC: Jaylen Costello/Gamer_cad : Go back round.
+OOC: Hubert Hughes/Mord_Sith : That&#39;s interesting
+OOC: Hubert Hughes/Mord_Sith : When I moved this way I was thrown out of the car
+OOC: Jaylen Costello/Gamer_cad : Oh, yeah.
+OOC: Hubert Hughes/Mord_Sith : Yet I still get the spam
+OOC: Jaylen Costello/Gamer_cad : The spam is broadcast to the world.
+OOC: Hubert Hughes/Mord_Sith : Oh
+OOC: Jaylen Costello/Gamer_cad : Debugging stuff, I must have forgotten to remove it.
+OOC: Jaylen Costello/Gamer_cad : Tram controls, push in the direction your facing to go.
+OOC: Hubert Hughes/Mord_Sith : But you did see the cart throw me out right?
+OOC: Jaylen Costello/Gamer_cad : The other direction to stop.
+OOC: Hubert Hughes/Mord_Sith : OH GOD NO AIR HERE EITHER
+OOC: Jaylen Costello/Gamer_cad : The other 2 directions cause you to exit.
+OOC: Jaylen Costello/Gamer_cad : Sec, reversing round.
+OOC: Jaylen Costello/Gamer_cad : Come back.
+OOC: Hubert Hughes/Mord_Sith : There&#39;s no air in the chapel
+OOC: Jaylen Costello/Gamer_cad : Like I said, temporary map :)
+OOC: Jaylen Costello/Gamer_cad : Hop it the one behind me.
+OOC: Jaylen Costello/Gamer_cad : Choo choo!
+OOC: Hubert Hughes/Mord_Sith : LOL
+OOC: Jaylen Costello/Gamer_cad : This last one?
+OOC: Jaylen Costello/Gamer_cad : It&#39;s a freight train
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/crate/eva at (75,132,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/crate/eva at (77,132,1)
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/crate/medical at (76,132,1)
+OOC: Jaylen Costello/Gamer_cad : So yeah.
+OOC: Jaylen Costello/Gamer_cad : This will be one of the many planned methods of transport./
+OOC: Hubert Hughes/Mord_Sith : Shiny
+OOC: Hubert Hughes/Mord_Sith : Space Monorail!
+OOC: Jaylen Costello/Gamer_cad : I&#39;ve got a customisable vehicle system planned.
+OOC: Jaylen Costello/Gamer_cad : Like Cataclysm&#39;s.
+OOC: Hubert Hughes/Mord_Sith : Even better!
+OOC: Jaylen Costello/Gamer_cad : Using instancing.
+OOC: Jaylen Costello/Gamer_cad : I also did these.
+OOC: Hubert Hughes/Mord_Sith : Train with guns on it
+OOC: Hubert Hughes/Mord_Sith : You need to be able to hack the train to run people over though...
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/machinery/kit_dispenser at (81,132,1)
+OOC: Jaylen Costello/Gamer_cad : Examine the kit.
+OOC: Jaylen Costello/Gamer_cad : Each kit requires components.
+OOC: Hubert Hughes/Mord_Sith : Shiny
+OOC: Jaylen Costello/Gamer_cad : Which are gathered from the scavenging system.
+OOC: Jaylen Costello/Gamer_cad : Which is also coded.
+OOC: Hubert Hughes/Mord_Sith : You&#39;ve been busy
+OOC: Jaylen Costello/Gamer_cad : They then have a sequence to build them.
+OOC: Jaylen Costello/Gamer_cad : The kits I&#39;m proud of.
+OOC: Hubert Hughes/Mord_Sith : You can&#39;t load the kits onto the tram
+OOC: Jaylen Costello/Gamer_cad : Yeah, they&#39;re not crates.
+OOC: Hubert Hughes/Mord_Sith : But you have to drag them like crates...
+OOC: Jaylen Costello/Gamer_cad : I might add that feature though.
+OOC: Jaylen Costello/Gamer_cad : Hrrm.
+OOC: Hubert Hughes/Mord_Sith : Just an observation
+OOC: Jaylen Costello/Gamer_cad : Yeah, the kits are actually randomly generated.
+OOC: Hubert Hughes/Mord_Sith : LOL
+OOC: Jaylen Costello/Gamer_cad : But they&#39;ll be the exact same across rounds.
+OOC: Hubert Hughes/Mord_Sith : I got it on the tram
+OOC: Jaylen Costello/Gamer_cad : Crateception.
+OOC: Jaylen Costello/Gamer_cad : And I guess that works.
+OOC: Jaylen Costello/Gamer_cad : That&#39;s not their final icon, btew.
+OOC: Jaylen Costello/Gamer_cad : I&#39;ve got a custom one coming.
+OOC: Hubert Hughes/Mord_Sith : Shiny
+OOC: Jaylen Costello/Gamer_cad : But yeah, the kits components?
+OOC: Jaylen Costello/Gamer_cad : They&#39;re generated using the name as a seed.
+OOC: Jaylen Costello/Gamer_cad : So they&#39;ll be the same across rounds, but they don&#39;t need the required components hard coding.
+OOC: Hubert Hughes/Mord_Sith : So, they may not need the same components each time?
+OOC: Jaylen Costello/Gamer_cad : They&#39;ll always need the same components, unless their name is changed in the source.
+OOC: Hubert Hughes/Mord_Sith : Shiny
+OOC: Jaylen Costello/Gamer_cad : Hrrrm. What else.
+OOC: Hubert Hughes/Mord_Sith : WHEE
+OOC: Jaylen Costello/Gamer_cad : Gotta love the trams.
+OOC: Jaylen Costello/Gamer_cad : I&#39;ve got a communications system planned that means relay towers are required to transmit.
+OOC: Hubert Hughes/Mord_Sith : Just testing to ensure it remembers the crate in the crate in the tram&#39;s contents
+OOC: Hubert Hughes/Mord_Sith : Ooh
+OOC: Jaylen Costello/Gamer_cad : I need to rewrite comms really, but I&#39;m just modding it for now.
+OOC: Jaylen Costello/Gamer_cad : Making it so only if you&#39;re in range of a comms tower does the radio work.
+OOC: Jaylen Costello/Gamer_cad : I&#39;m also adding shortwave too.
+OOC: Jaylen Costello/Gamer_cad : Like walkie talkie style.
+OOC: Hubert Hughes/Mord_Sith : gotta love ORANGE
+OOC: Jaylen Costello/Gamer_cad : :P
+OOC: Hubert Hughes/Mord_Sith : Anything else Spiffy Spoffy?
+OOC: Jaylen Costello/Gamer_cad : Hrrm.
+OOC: Jaylen Costello/Gamer_cad : Mining is being redone completely to use mining installations and encourage base building.
+OOC: Hubert Hughes/Mord_Sith : Your spawn area needs windows to keep the cold out
+OOC: Jaylen Costello/Gamer_cad : Richard has made a dynamic weather system I&#39;ve yet to see work.
+OOC: Jaylen Costello/Gamer_cad : Map is being redone from scratch.
+OOC: Hubert Hughes/Mord_Sith : Understood
+OOC: Hubert Hughes/Mord_Sith : What&#39;s wrong with the weather system?
+OOC: Jaylen Costello/Gamer_cad : No idea.
+OOC: Jaylen Costello/Gamer_cad : In my times spent testing, I&#39;ve just never observed it change.
+OOC: Jaylen Costello/Gamer_cad : It&#39;s MEANT to snow.
+OOC: Jaylen Costello/Gamer_cad : I&#39;ve seen it snowing. But never during my testing.
+OOC: Jaylen Costello/Gamer_cad : If you&#39;re wondering, this is a really old mars source.
+OOC: Jaylen Costello/Gamer_cad : It&#39;s a slightly modified really old goon.
+OOC: Jaylen Costello/Gamer_cad : That&#39;s why it&#39;s all silky smooth.
+OOC: Jaylen Costello/Gamer_cad : But that&#39;s also where some trouble is caused.
+OOC: Jaylen Costello/Gamer_cad : I&#39;ll need to rewrite research. Make a new engine. 
+OOC: Jaylen Costello/Gamer_cad : And possibly other things.
+OOC: Hubert Hughes/Mord_Sith : Now THAT&#39;S crateception
+OOC: Jaylen Costello/Gamer_cad : I wanted you here to help me work out what I need to do.
+OOC: Jaylen Costello/Gamer_cad : And... lol!
+OOC: Jaylen Costello/Gamer_cad : T.A.R.D.I.C
+OOC: Jaylen Costello/Gamer_cad : Time and relative dimension in crates.
+OOC: Jaylen Costello/Gamer_cad : They&#39;re bigger on the inside.
+OOC: Hubert Hughes/Mord_Sith : Crates with space in them, interesting concept
+OOC: Hubert Hughes/Mord_Sith : Instead of slots like bags and junk, have a volume calculation
+OOC: Hubert Hughes/Mord_Sith : You could even have thermal ones for the medical crates to prevent heat damage to things like plasma
+OOC: Hubert Hughes/Mord_Sith : Or fridges
+OOC: Jaylen Costello/Gamer_cad : That would be interesting.
+OOC: Hubert Hughes/Mord_Sith : Very much so
+OOC: Jaylen Costello/Gamer_cad : Y&#39;know. I bet crates are by default heatproof.
+OOC: Hubert Hughes/Mord_Sith : But that&#39;s probably not why you want me here :P
+OOC: Jaylen Costello/Gamer_cad : You&#39;re here for any and all feedback :P
+OOC: Hubert Hughes/Mord_Sith : People can&#39;t get in them though :D
+OOC: Jaylen Costello/Gamer_cad : OH
+OOC: Jaylen Costello/Gamer_cad : This is a fun thing
+OOC: Hubert Hughes/Mord_Sith : Uhho
+OOC: Jaylen Costello/Gamer_cad : That came with the source.
+ADMIN: Gamer_cad/(Jaylen Costello) spawned /obj/item/weapon/gun/energy/teleport_gun at (92,132,1)
+OOC: Hubert Hughes/Mord_Sith : OH GOD THE TELEGUN
+OOC: Jaylen Costello/Gamer_cad : Yup.
+OOC: Hubert Hughes/Mord_Sith : I&#39;M OUTTA HERE!
+OOC: Jaylen Costello/Gamer_cad : Just waiting for a train.
+OOC: Jaylen Costello/Gamer_cad : Hehe.
+OOC: Jaylen Costello/Gamer_cad : I stopped it.
+ADMIN: Gamer_cad/(Jaylen Costello) deleted Security at (105,145,1)
+OOC: Jaylen Costello/Gamer_cad : Ouch.
+OOC: Jaylen Costello/Gamer_cad : I disposal&#39;d myself.
+OOC: Jaylen Costello/Gamer_cad : And got hit by a floor tile and knocked down to orange.
+OOC: Hubert Hughes/Mord_Sith : Vendomats are broken
+OOC: Jaylen Costello/Gamer_cad : They are?
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 119,125,1 in Medbay
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 125,127,1 in Medbay
+OOC: Hubert Hughes/Mord_Sith : Nothing in them
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 116,131,1 in Starboard Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to Mord_Sith/(Hubert Hughes)
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 108,96,1 in Engine Room
+OOC: Jaylen Costello/Gamer_cad : Oh.
+OOC: Jaylen Costello/Gamer_cad : And we have new PDA icons.
+OOC: Hubert Hughes/Mord_Sith : I noticed
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 117,97,1 in Engine Room
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 100,113,1 in Mining
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 96,117,1 in Mining
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 87,122,1 in Mining
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 85,127,1 in Aft Port Maintenance
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 85,130,1 in Aft Port Maintenance
+OOC: Jaylen Costello/Gamer_cad : Still has a long way to go, this source, heh.
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 107,142,1 in Fore Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 107,155,1 in Fore Primary Hallway
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 107,168,1 in Bridge
+OOC: Hubert Hughes/Mord_Sith : In order to bring it up to snuff with TG? Yeah
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 107,168,1 in Bridge
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 107,155,1 in Fore Primary Hallway
+OOC: Jaylen Costello/Gamer_cad : Still, I&#39;m adding new features one step at a time/
+OOC: Jaylen Costello/Gamer_cad : I really want to play up the idea of being on a planet.
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to 122,104,1 in Primary Tool Storage
+OOC: Hubert Hughes/Mord_Sith : It&#39;s an interesting concept
+OOC: Jaylen Costello/Gamer_cad : Mhhm. I&#39;m hopeful I can get it to play out as well as I hope I can.
+OOC: Jaylen Costello/Gamer_cad : The main issue is revamping systems, and making sure it has enough content.
+OOC: Jaylen Costello/Gamer_cad : I can&#39;t match /tg/ for content, not on my own.
+OOC: Hubert Hughes/Mord_Sith : Well the nuclear reactor doesn&#39;t work
+OOC: Jaylen Costello/Gamer_cad : Oh, yeah, it&#39;s borked as hell.
+OOC: Jaylen Costello/Gamer_cad : Pending a total rewrite.
+OOC: Jaylen Costello/Gamer_cad : Medical I think is fine.
+OOC: Hubert Hughes/Mord_Sith : THere was something interesting actually on the TG forums
+OOC: Jaylen Costello/Gamer_cad : Oh?
+OOC: Hubert Hughes/Mord_Sith : A Turbine engine system
+OOC: Hubert Hughes/Mord_Sith : Nuclear based but it&#39;s more than just a crude icon in a big room
+OOC: Jaylen Costello/Gamer_cad : SOunds interesting.
+OOC: Jaylen Costello/Gamer_cad : I might read it over.
+OOC: Hubert Hughes/Mord_Sith : EHEHEHE
+OOC: Jaylen Costello/Gamer_cad : I was either going to just go Nuclear, or maybe use fusion or something.
+OOC: Hubert Hughes/Mord_Sith : http://forums.nanotrasen.com/viewtopic.php?f=7&t=5227
+OOC: Hubert Hughes/Mord_Sith : That&#39;s the thread for it
+OOC: Jaylen Costello/Gamer_cad : *Steals idea*
+OOC: Jaylen Costello/Gamer_cad : :P
+OOC: Jaylen Costello/Gamer_cad : Hehe. I got away.
+OOC: Jaylen Costello/Gamer_cad : Then ran onto it because I felt like it.
+OOC: Hubert Hughes/Mord_Sith : Did you?
+OOC: Jaylen Costello/Gamer_cad : I did. Then ran back onto it for fun.
+OOC: Jaylen Costello/Gamer_cad : Oh you bastard.
+OOC: Jaylen Costello/Gamer_cad : STRANDED ON A DESERT PLANET
+OOC: Jaylen Costello/Gamer_cad : So, so cold.
+OOC: Jaylen Costello/Gamer_cad : So very cold.
+OOC: Jaylen Costello/Gamer_cad : *dies*
+ADMIN: Gamer_cad/(Jaylen Costello) jumped to Mord_Sith/(Hubert Hughes)
+ACCESS: Logout: *no client*/(Jaylen Costello)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+OOC: Jaylen Costello/Gamer_cad : Well that just ain&#39;t cricket.
+ACCESS: Logout: *no client*/(Jaylen Costello)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+ACCESS: Logout: *no client*/(Jaylen Costello)
+ACCESS: Login: Gamer_cad/(Jaylen Costello) from 127.0.0.1
+OOC: Hubert Hughes/Mord_Sith : Ker Sploit
+OOC: Jaylen Costello/Gamer_cad : I miss the crushing unit. /tg/ should have left it in.
+ADMIN: Gamer_cad/(fueltank) modified fueltank's anchored to 0
+SAY: Ghost/Gamer_cad : Boo.
+OOC: Hubert Hughes/Mord_Sith : Now I can enjoy the pure white snow in peace :D
+ADMIN: Gamer_cad/(fueltank) jumped to Mord_Sith/(Hubert Hughes)
+OOC: fueltank/Gamer_cad : Oh, wow.
+OOC: Hubert Hughes/Mord_Sith : ?
+OOC: fueltank/Gamer_cad : I didn&#39;t realise I left my test track there.
+OOC: fueltank/Gamer_cad : &#34;Now I can enjoy the snow in peace...&#34;
+OOC: fueltank/Gamer_cad : *Rides tram around all day*
+OOC: Hubert Hughes/Mord_Sith : So anything else? I&#39;m gonna have to get going shortly
+OOC: fueltank/Gamer_cad : Nope.
+OOC: fueltank/Gamer_cad : Just wanted your thoughts on the source.
+OOC: fueltank/Gamer_cad : :)
+OOC: Hubert Hughes/Mord_Sith : Well as I mentioned, being on a planet is interesting, I gotta go, I&#39;ll talk more later
+ACCESS: Logout: Mord_Sith/(Hubert Hughes)
+OOC: fueltank/Gamer_cad : Alright,s ee you later bro!
+ACCESS: Logout: Gamer_cad/(fueltank)
