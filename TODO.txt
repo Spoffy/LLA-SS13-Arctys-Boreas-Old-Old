@@ -1,0 +1,19 @@
+Finish Communications Changes - Should be working for alpha testing.
+Rewrite Engine
+Add Wereclown Wampas.
+Add modular vehicle system
+Add mining. (Mining shuttle already done?)
+Add AI robotics system
+Port Le Marie
+Port Perseus
+Finish computer2s
+'Wampa' style Yeti, bites gives Wampirus Clownitus, turns you into a rainbow smashing yeti.
+	Killed by bananium bullets, bananium allergy. Clown planet acts as a catalyst for transformation?
+	Infects heart, spreads through organs until full infection.
+	More organs, stronger you ge,t more likely to turn.
+Temporal door - Exists in the same place on multiple Z levels. Random event
+Teleportation system
+
+Allow for distributed servers - (Share Files? Transmit changes to each other? Copy and paste files across using Shell?)
+Trim down notes panel to only log notes
+Sort player save system to work better

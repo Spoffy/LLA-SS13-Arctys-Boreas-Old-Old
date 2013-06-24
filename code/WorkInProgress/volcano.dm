@@ -1,0 +1,7 @@
+/proc/volcano()
+	command_alert("Strange geological activities have been detected near the station! All personell must get to minimum safety distance within 30 seconds. This is not a drill.")
+	sleep(30)
+	for(var/turf/simulated/floor/T in world)
+		if(prob(4) && T.z == 1 && istype(T))
+			spawn(50+rand(0,3000))
+				explosion(T, 3, 1)
