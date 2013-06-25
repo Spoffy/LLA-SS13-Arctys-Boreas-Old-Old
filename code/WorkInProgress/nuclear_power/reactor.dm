@@ -63,17 +63,11 @@ I'm well aware the way the reactor starts and runs is actually bad physics, but 
 		// Calculate our change in reaction.
 		reaction_rate = reaction_rate*num_per_fuel //Because 1 is stable. E.g, 2 neutrons continuing would double reaction rate, as for each reaction, 2 more are caused.
 
-		//Maintain reaction - Auto reaction maintenance REMOVE(Use a low rate of change so big values take ages to adjust)
+		//Maintain reaction - Auto reaction maintenance
 		if(maintain_reaction && rod_control)
 			var/difference = reaction_rate - maintain_reaction
 			if(difference > 0)
-				rod_control.insertion += 2
-			else if(difference > 1)
-				rod_control.insertion += 1
-			else if(difference < -3)
-				rod_control.insertion -= 2
-			else if(difference < -1)
-				rod_control.insertion -= 1
+				//CONTINUE - REMOVE(Use a low rate of change so big values take ages to adjust)
 
 		//-More complicated bit: Temperature
 		//Treat the reaction_rate as the amount temperature increases for simplicities sake.
