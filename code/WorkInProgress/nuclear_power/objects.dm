@@ -27,14 +27,14 @@
 	icon_state = "plutonium"
 
 	var/decay = 0
-	var/absorbs = 3000 //How many neutrons absorbed. Should be ~Twice the emission rate
+	var/absorbs = 2000 //How many neutrons absorbed. Should be ~Twice the emission rate
 
 	proc/decay(amount)
 		decay = min(decay+amount,100)
 		desc = "A silver-indium-cadmium control rod for absorbing neutrons in a fission reactor. [decay]% Decayed."
 
 	proc/absorption_rate()
-		return (absorbs * (decay/100))
+		return (absorbs * (1-decay/100))
 
 /obj/item/weapon/nuclear/plutonium/safe
 	name = "Plutonium Tube"

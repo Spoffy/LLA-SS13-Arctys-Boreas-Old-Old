@@ -1,4 +1,10 @@
-// Definitions
+/*This is modelled on real life reactors. Each rod emits X neutrons(a type of particle), while control rods absorb Y neutrons. 1 neutron is needed per fuel to continue the reaction.
+More than 1, reaction increases, less than 1, reaction decreases.
+
+I'm well aware the way the reactor starts and runs is actually bad physics, but it actually makes for a suprisingly good system.
+*/
+
+
 /obj/machinery/power/nuclear_power/reactor
 	name = "Reactor Core"
 	desc = "A state of the art nuclear power reactor."
@@ -8,6 +14,10 @@
 	density = 1
 
 	var/running = 0
+	var/reaction_rate = 0
+	var/num_per_fuel = 0
+	var/temp = 273 //kelvin
+	var/maintain_reaction = 0
 
 	var/obj/machinery/power/nuclear_power/control/computer //CHANGE TO COMPUTER 2 ONCE WORKING
 	var/obj/machinery/power/nuclear_power/fuel_rod_control/fuel_control
@@ -17,13 +27,6 @@
 		..()
 		spawn(15) //Gives the parts time to spawn.
 			check_parts()
-
-
-	verb/test()
-		set src in view()
-		running =1
-		process()
-
 
 	proc/check_parts()
 		if(!fuel_control)
@@ -45,15 +48,59 @@
 		if(!rod_control)
 			running = 0
 			return
-//		var/core_value = fuel_control.core_value()
-//		var/rod_decay = 0
-//		var/rod_number = 0
+		// Work out how many neutrons continue
+		var/emissions = fuel_control.emission_rate()
+		var/absorptions = 0
 		if(rod_control)
-			rod_decay = rod_control.rod_decay()
-			rod_number = rod_control.rod_number()
+			absorptions = rod_control.absorption_rate()
+		var/remaining_neutrons = max(emissions - absorptions,0)
 
+		// Work out how many are continuing on per fuel.
+		num_per_fuel = 0
+		if(remaining_neutrons > 0)
+			num_per_fuel = remaining_neutrons/fuel_control.total_fuel()
 
+		// Calculate our change in reaction.
+		reaction_rate = reaction_rate*num_per_fuel //Because 1 is stable. E.g, 2 neutrons continuing would double reaction rate, as for each reaction, 2 more are caused.
 
+		//Maintain reaction - Auto reaction maintenance REMOVE(Use a low rate of change so big values take ages to adjust)
+		if(maintain_reaction && rod_control)
+			var/difference = reaction_rate - maintain_reaction
+			if(difference > 0)
+				rod_control.insertion += 2
+			else if(difference > 1)
+				rod_control.insertion += 1
+			else if(difference < -3)
+				rod_control.insertion -= 2
+			else if(difference < -1)
+				rod_control.insertion -= 1
+
+		//-More complicated bit: Temperature
+		//Treat the reaction_rate as the amount temperature increases for simplicities sake.
+		temp += reaction_rate
+
+		//Handle lowering the temperature here.
+		//TODO WHEN TEMP CONTROL COOTED
+
+		fuel_control.use_fuel(reaction_rate/10)
+
+		world << "Remaining Neutrons: [remaining_neutrons]"
+		world << "Reaction Rate: [reaction_rate]"
+		world << "Num Per Fuel: [num_per_fuel]"
+		world << "Temp: [temp]"
+
+	verb/test()
+		set src in view()
+		running =1
+		reaction_rate = 1
+		temp = 273
+		process()
+	verb/maintain()
+		set src in view()
+		if(maintain_reaction)
+			maintain_reaction = 0
+		else
+			maintain_reaction = reaction_rate
 
 /obj/machinery/power/nuclear_power/fuel_rod_control
 	name = "Fuel Rod Manager"
@@ -111,11 +158,20 @@
 			total_used += fuel_used //Add to total
 			todo -= P //Remove rod from list to prevent reselection
 
-	proc/core_value()
+	proc/emission_rate()
+		var/total = 0
+		for(var/obj/item/weapon/nuclear/plutonium/P in fuel_rods)
+			total += P.emission_rate()
+		return total
+
+	proc/total_fuel()
 		var/total = 0
 		for(var/obj/item/weapon/nuclear/plutonium/P in fuel_rods)
 			total += P.fuel_remaining
 		return total
+
+	proc/rod_number()
+		return length(fuel_rods)
 
 
 
@@ -169,25 +225,27 @@
 		user.put_in_hand(C)
 
 	proc/decay_rods()
-		if(world.time < next_decay)
-			return
 		for(var/obj/item/weapon/nuclear/control_rod/C in control_rods)
-			var/decay = rand(0,4)
+			var/decay = rand(0,1)
 			C.decay(decay)
-		next_decay = world.time + decay_delay
 
 	proc/update_insertion(n_insertion)
 		insertion = n_insertion
 		desc = "Machine for automated control rod insertion. Insertion: [insertion]%"
 
-	proc/rod_decay()
+	proc/absorption_rate()
 		var/total = 0
 		for(var/obj/item/weapon/nuclear/control_rod/C in control_rods)
-			total += C.decay
-		return total
+			total += C.absorption_rate()
+		return total*insertion/100
 
 	proc/rod_number()
 		return length(control_rods)
+
+	verb/set_height(h as num)
+		set category = "NUCLEAR"
+		set src in view()
+		insertion = max(min(h,100),0)
 
 /obj/machinery/power/nuclear_power/control
 	name = "core control computer"

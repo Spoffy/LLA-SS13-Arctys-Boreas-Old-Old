@@ -47,7 +47,7 @@ var/showadminmessages = 1
 		return
 
 	if(href_list["call_shuttle"])
-		if (src.rank >= 3)
+		if (src.level >= 3)
 			if( ticker.mode.name == "blob" )
 				alert("You can't call the shuttle during blob!")
 				return
@@ -81,7 +81,7 @@ var/showadminmessages = 1
 			return
 
 	if(href_list["edit_shuttle_time"])
-		if (src.rank >= 4)
+		if (src.level >= 4)
 			emergency_shuttle.settimeleft( input("Enter new shuttle duration (seconds):","Edit Shuttle Timeleft", emergency_shuttle.timeleft() ) as num )
 			log_admin("[key_name(usr)] edited the Emergency Shuttle's timeleft to [emergency_shuttle.timeleft()]")
 			message_admins("\blue [key_name_admin(usr)] edited the Emergency Shuttle's timeleft to [emergency_shuttle.timeleft()]", 1)
@@ -173,7 +173,7 @@ var/showadminmessages = 1
 		return
 
 	if(href_list["jobban3"])
-		if (src.rank >= 1)
+		if (src.level >= 1)
 			var/mob/M = locate(href_list["jobban4"])
 			var/job = href_list["jobban3"]
 			if ((M.client && M.client.holder && (M.client.holder.level > src.level)))
@@ -192,7 +192,7 @@ var/showadminmessages = 1
 
 
 	if (href_list["boot2"])
-		if (src.rank >= 0)
+		if (src.level >= 0)
 			var/mob/M = locate(href_list["boot2"])
 			if (ismob(M))
 				if ((M.client && M.client.holder && (M.client.holder.level >= src.level)))
@@ -204,7 +204,7 @@ var/showadminmessages = 1
 				del(M.client)
 
 	if (href_list["removejobban"])
-		if (src.rank >= 5)
+		if (src.level >= 5)
 			var/t = href_list["removejobban"]
 			if(t)
 				log_admin("[key_name(usr)] removed [t]")
@@ -214,12 +214,12 @@ var/showadminmessages = 1
 
 
 	if (href_list["mute2"])
-		if (src.rank >= 0)
+		if (src.level >= 0)
 			var/client/C = locate(href_list["mute2"])
 			owner.cmd_admin_mute(C)
 
 	if (href_list["c_mode"])
-		if (src.rank >= 1 )
+		if (src.level >= 1 )
 			if (ticker && ticker.mode)
 				return alert(usr, "The game has already started.", null, null, null, null)
 			var/dat = text({"<B>What mode do you wish to play?</B><HR>
@@ -243,7 +243,7 @@ var/showadminmessages = 1
 			usr << browse(dat, "window=c_mode")
 
 	if (href_list["c_mode2"])
-		if (src.rank >= 1)
+		if (src.level >= 1)
 			if (ticker && ticker.mode)
 				return alert(usr, "The game has already started.", null, null, null, null)
 			switch(href_list["c_mode2"])
@@ -287,7 +287,7 @@ var/showadminmessages = 1
 			world.save_mode(master_mode)
 
 	if (href_list["monkeyone"])
-		if (src.rank >= 2)
+		if (src.level >= 2)
 			var/mob/M = locate(href_list["monkeyone"])
 			if(!ismob(M))
 				return
@@ -301,7 +301,7 @@ var/showadminmessages = 1
 				return
 
 	if (href_list["forcespeech"])
-		if (src.rank >= 3)
+		if (src.level >= 3)
 			var/mob/M = locate(href_list["forcespeech"])
 			if (ismob(M))
 				var/speech = input("What will [key_name(M)] say?.", "Force speech", "")
@@ -316,7 +316,7 @@ var/showadminmessages = 1
 			return
 
 	if (href_list["sendtoprison"])
-		if (src.rank >= 0)
+		if (src.level >= 0)
 			var/mob/M = locate(href_list["sendtoprison"])
 			if (ismob(M))
 				if(istype(M, /mob/living/silicon/ai))
@@ -352,7 +352,7 @@ var/showadminmessages = 1
 
 
 	if (href_list["tdome1"])
-		if (src.rank >= 1)
+		if (src.level >= 1)
 			var/mob/M = locate(href_list["tdome1"])
 			// M.revive()
 			M.loc = pick(tdome1)
@@ -361,7 +361,7 @@ var/showadminmessages = 1
 			M << "\blue You have been sent to the Thunderdome."
 
 	if (href_list["tdome2"])
-		if (src.rank >= 1)
+		if (src.level >= 1)
 			var/mob/M = locate(href_list["tdome2"])
 			// M.revive()
 			M.loc = pick(tdome2)
@@ -370,7 +370,7 @@ var/showadminmessages = 1
 			M << "\blue You have been sent to the Thunderdome."
 
 	if (href_list["revive"])
-		if (src.rank >= 3)
+		if (src.level >= 3)
 			var/mob/M = locate(href_list["revive"])
 			if (ismob(M))
 				if(istype(M, /mob/dead/observer))
@@ -388,7 +388,7 @@ var/showadminmessages = 1
 			return
 
 	if (href_list["makeai"]) //Yes, im fucking lazy, so what? it works ... hopefully
-		if (src.rank >= 3)
+		if (src.level >= 3)
 			var/mob/M = locate(href_list["makeai"])
 			if(istype(M, /mob/living/carbon/human))
 				var/mob/living/carbon/human/H = M
@@ -574,18 +574,18 @@ var/showadminmessages = 1
 		else
 			alert("Cannot make this mob a traitor")
 	if (href_list["create_object"])
-		if (src.rank >= 2)
+		if (src.level >= 2)
 			return create_object(usr)
 		else
 			alert("You are not a high enough administrator! Sorry!!!!")
 
 	if (href_list["create_turf"])
-		if (src.rank >= 2)
+		if (src.level >= 2)
 			return create_turf(usr)
 		else
 			alert("You are not a high enough administrator! Sorry!!!!")
 	if (href_list["create_mob"])
-		if (src.rank >= 4)
+		if (src.level >= 4)
 			return create_mob(usr)
 		else
 			alert("You are not a high enough administrator! Sorry!!!!")
@@ -599,7 +599,7 @@ var/showadminmessages = 1
 		voteres()
 
 	if (href_list["prom_demot"])
-		if (src.rank >= 3)
+		if (src.level >= 3)
 			var/client/C = locate(href_list["prom_demot"])
 			if(C.holder && (C.holder.level >= src.level))
 				alert("This cannot be done as [C] is a [C.holder.rank]")
@@ -667,8 +667,8 @@ var/showadminmessages = 1
 
 
 	if (href_list["object_list"])
-		if (src.rank >= 2)
-			if (config.allow_admin_spawning && ((src.state == 2) || (src.rank >= 4)))
+		if (src.level >= 2)
+			if (config.allow_admin_spawning && ((src.state == 2) || (src.level >= 4)))
 				var/atom/loc = usr.loc
 
 				var/dirty_paths
@@ -687,9 +687,9 @@ var/showadminmessages = 1
 						removed_paths += dirty_path
 					else if (ispath(path, /obj/item/weapon/gun/energy/pulse_rifle))
 						removed_paths += dirty_path
-					else if (ispath(path, /obj/bhole) && !(src.rank >= 5))
+					else if (ispath(path, /obj/bhole) && !(src.level >= 5))
 						removed_paths += dirty_path
-					else if (ispath(path, /mob) && !(src.rank >= 4))
+					else if (ispath(path, /mob) && !(src.level >= 4))
 						removed_paths += dirty_path
 					else
 						paths += path
@@ -739,7 +739,7 @@ var/showadminmessages = 1
 				return
 
 	if (href_list["secretsfun"])
-		if ((src.rank >= 2))
+		if ((src.level >= 2))
 			var/ok = 0
 			switch(href_list["secretsfun"])
 				if("sec_clothes")
@@ -857,7 +857,7 @@ var/showadminmessages = 1
 							H.loc = pick(prisonsecuritywarp)
 						prisonwarped += H
 				if("traitor_all")
-					if (src.rank >= 2)
+					if (src.level >= 2)
 						if(!ticker)
 							alert("The game hasn't started yet!")
 							return
@@ -948,14 +948,14 @@ var/showadminmessages = 1
 							sleep(rand(30,400))
 							Wall.ex_act(rand(2,1)) */
 				if("wave")
-					if (src.rank >= 3)
+					if (src.level >= 3)
 						meteor_wave()
 						message_admins("[key_name_admin(usr)] has spawned meteors", 1)
 					else
 						alert("You cannot perform this action. You must be of a higher administrative rank!", null, null, null, null, null)
 						return
 				if("retardify")
-					if (src.rank >= 4)
+					if (src.level >= 4)
 						for(var/mob/living/carbon/human/H in world)
 							if(H.client)
 								H << "\red <B>You suddenly feel stupid.</B>"
@@ -965,7 +965,7 @@ var/showadminmessages = 1
 						alert("You cannot perform this action. You must be of a higher administrative rank!")
 						return
 				if("fakeguns")
-					if (src.rank >= 4)
+					if (src.level >= 4)
 						for(var/obj/item/W in world)
 							if(istype(W, /obj/item/clothing) || istype(W, /obj/item/weapon/card/id) || istype(W, /obj/item/weapon/disk) || istype(W, /obj/item/weapon/tank))
 								continue
@@ -977,7 +977,7 @@ var/showadminmessages = 1
 						alert("You cannot perform this action. You must be of a higher administrative rank!")
 						return
 				if("schoolgirl")
-					if (src.rank >= 4)
+					if (src.level >= 4)
 						for(var/obj/item/clothing/under/W in world)
 							W.icon_state = "schoolgirl"
 							W.item_state = "w_suit"
@@ -993,7 +993,7 @@ var/showadminmessages = 1
 		return
 
 	if (href_list["secretsadmin"])
-		if (src.rank >= 0)
+		if (src.level >= 0)
 			var/ok = 0
 			switch(href_list["secretsadmin"])
 				if("clear_bombs")
@@ -1136,7 +1136,7 @@ var/showadminmessages = 1
 					world << text("<B>A secret has been activated by []!</B>", usr.key)
 		return
 	if (href_list["secretscoder"])
-		if (src.rank >= 4)
+		if (src.level >= 4)
 			switch(href_list["secretscoder"])
 				if("spawn_objects")
 					var/dat = "<B>Admin Log<HR></B>"
@@ -1189,7 +1189,7 @@ var/showadminmessages = 1
 
 /obj/admins/proc/Jobbans()
 
-	if (src.rank >= 5)
+	if (src.level >= 5)
 		var/dat = "<B>Job Bans!</B><HR><table>"
 		for(var/t in jobban_keylist)
 			dat += text("<tr><td><A href='?src=\ref[src];removejobban=[t]'>[t]</A></td></tr>")
@@ -1615,7 +1615,7 @@ var/showadminmessages = 1
 
 /obj/admins/proc/traitorize(mob/M as mob, var/objective, var/mode)
 	//mode = 1 for normal traitorise, mode = 0 for traitor_all
-	if (src.rank >= 2)
+	if (src.level >= 2)
 		if(M.stat == 2 || !(M.client))
 			alert("Person is dead or not logged in or hasn't started yet. Be nice")
 			return
