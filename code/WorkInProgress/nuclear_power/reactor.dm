@@ -1,7 +1,7 @@
 /*This is modelled on real life reactors. Each rod emits X neutrons(a type of particle), while control rods absorb Y neutrons. 1 neutron is needed per fuel to continue the reaction.
 More than 1, reaction increases, less than 1, reaction decreases.
 
-I'm well aware the way the reactor starts and runs is actually bad physics, but it actually makes for a suprisingly good system.
+I'm well aware the way the reactor starts and runs is actually bad physics, but it actually makes for a suprisingly fun system.
 */
 
 
@@ -52,22 +52,29 @@ I'm well aware the way the reactor starts and runs is actually bad physics, but 
 		var/emissions = fuel_control.emission_rate()
 		var/absorptions = 0
 		if(rod_control)
-			absorptions = rod_control.absorption_rate()
+			absorptions = rod_control.absorption_rate()*(rod_control.insertion/100) //Absorptions = raw absorption rate of rods * % insertion.
+
 		var/remaining_neutrons = max(emissions - absorptions,0)
 
 		// Work out how many are continuing on per fuel.
 		num_per_fuel = 0
+		var/total_fuel = fuel_control.total_fuel()
 		if(remaining_neutrons > 0)
-			num_per_fuel = remaining_neutrons/fuel_control.total_fuel()
+			num_per_fuel = remaining_neutrons/total_fuel
 
 		// Calculate our change in reaction.
 		reaction_rate = reaction_rate*num_per_fuel //Because 1 is stable. E.g, 2 neutrons continuing would double reaction rate, as for each reaction, 2 more are caused.
 
-		//Maintain reaction - Auto reaction maintenance
+		//Maintain reaction - Auto reaction maintenance - Calculate insertion % for the desired num_per_fuel
+		//Formula for desired insertion: insertion = ((emissions - (num_per_fuel * total_fuel))/absorptions)*100
 		if(maintain_reaction && rod_control)
 			var/difference = reaction_rate - maintain_reaction
-			if(difference > 0)
-				//CONTINUE - REMOVE(Use a low rate of change so big values take ages to adjust)
+			var/new_insertion = rod_control.insertion
+			if(difference > 0.5)
+				new_insertion = ((emissions - (0.99 * total_fuel))/rod_control.absorption_rate())*100
+			else if(difference < -0.5)
+				new_insertion = ((emissions - (1.01 * total_fuel))/rod_control.absorption_rate())*100
+			rod_control.update_insertion(new_insertion)
 
 		//-More complicated bit: Temperature
 		//Treat the reaction_rate as the amount temperature increases for simplicities sake.
@@ -231,7 +238,7 @@ I'm well aware the way the reactor starts and runs is actually bad physics, but 
 		var/total = 0
 		for(var/obj/item/weapon/nuclear/control_rod/C in control_rods)
 			total += C.absorption_rate()
-		return total*insertion/100
+		return total
 
 	proc/rod_number()
 		return length(control_rods)
