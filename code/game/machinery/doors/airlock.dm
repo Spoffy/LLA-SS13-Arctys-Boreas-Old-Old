@@ -397,26 +397,6 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 
 	return
 
-/obj/machinery/door/airlock/animate(animation)
-	switch(animation)
-		if("opening")
-			if(overlays) overlays = null
-			if(p_open)
-				icon_state = "o_door_opening" //can not use flick due to BYOND bug updating overlays right before flicking
-			else
-				flick("door_opening", src)
-		if("closing")
-			if(overlays) overlays = null
-			if(p_open)
-				flick("o_door_closing", src)
-			else
-				flick("door_closing", src)
-		if("spark")
-			flick("door_spark", src)
-		if("deny")
-			flick("door_deny", src)
-	return
-
 /obj/machinery/door/airlock/attack_ai(mob/user as mob)
 	if (!src.canAIControl())
 		if (src.canAIHack())
@@ -891,32 +871,32 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 
 /obj/machinery/door/airlock/command
 	name = "Airlock"
-	icon = 'Doorcom.dmi'
+	icon = 'door_com.dmi'
 	req_access = list(access_heads)
 
 /obj/machinery/door/airlock/security
 	name = "Airlock"
-	icon = 'Doorsec.dmi'
+	icon = 'door_sec.dmi'
 	req_access = list(access_security)
 
 /obj/machinery/door/airlock/engineering
 	name = "Airlock"
-	icon = 'Dooreng.dmi'
+	icon = 'door_eng.dmi'
 	req_access = list(access_engine)
 
 /obj/machinery/door/airlock/medical
 	name = "Airlock"
-	icon = 'Doormed.dmi'
+	icon = 'door_med.dmi'
 	req_access = list(access_medical)
 
 /obj/machinery/door/airlock/maintenance
 	name = "Maintenance Access"
-	icon = 'Doormaint.dmi'
+	icon = 'door_maint.dmi'
 	req_access = list(access_maint_tunnels)
 
 /obj/machinery/door/airlock/external
 	name = "External Airlock"
-	icon = 'Doorext.dmi'
+	icon = 'door_airlock.dmi'
 
 /obj/machinery/door/airlock/glass
 	name = "Glass Airlock"

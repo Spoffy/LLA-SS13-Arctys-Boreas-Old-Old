@@ -1,6 +1,6 @@
 /obj/machinery/door/window
 	name = "interior door"
-	icon = 'windoor.dmi'
+	icon = 'door_window.dmi'
 	icon_state = "left"
 	visible = 0.0
 	flags = ON_BORDER
@@ -158,7 +158,7 @@
 
 /obj/machinery/door/window/brigdoor
 	name = "Brig Door"
-	icon = 'windoor.dmi'
+	icon = 'door_window.dmi'
 	icon_state = "leftsecure"
 	base_state = "leftsecure"
 	var/id = 1.0
