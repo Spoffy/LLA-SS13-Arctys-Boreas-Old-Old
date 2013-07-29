@@ -20,8 +20,23 @@ var/global/datum/controller/weather_system/weather_master
 
 /datum/weather/pattern
 	var/static/icon/current_overlay = null
+	var/icon/overlay = null
+	var/target_temperature = 0
 
 	proc/Setup()
+		// Update areas
+		for(var/area/surface/A in world)
+			if (current_overlay != null)
+				A.overlays -= current_overlay
+
+			if (overlay != null)
+				A.overlays += overlay
+
+			// Update temperature
+			for (var/turf/unsimulated/snow/T in A)
+				T.temperature = target_temperature
+
+		current_overlay = overlay
 
 	proc/Process()
 
@@ -33,19 +48,10 @@ var/global/datum/controller/weather_system/weather_master
 /datum/weather/pattern/calm
 	Setup()
 		// Determine temperature
-		var/temperature = rand(T0C, T10C)
+		target_temperature = rand(T0C, T10C)
 
 		// Update areas
-		for(var/area/tundra/A)
-			A.overlays -= current_overlay
-
-		// Update turfs
-		for (var/turf/simulated/snow/T in block(locate(1, 1, 1), locate(world.maxx, world.maxy, 1)))
-			// Update overlay
-			T.overlays -= current_overlay
-
-			// Update temperature
-			T.temperature = temperature
+		..()
 
 		// Determine next pattern
 		switch (rand(100))
@@ -63,23 +69,14 @@ var/global/datum/controller/weather_system/weather_master
 // 60% chance of dropping to calm.
 // 40% chance of escalating to medium.
 /datum/weather/pattern/light
-	var/static/icon/overlay = new('snow.dmi', "snowfall_light")
+	overlay = new('snow.dmi', "snowfall_light")
 
 	Setup()
 		// Determine temperature
-		var/temperature = rand(TN10C, T0C)
+		target_temperature = rand(TN10C, T0C)
 
 		// Update areas
-		for(var/area/tundra/A)
-			A.overlays -= current_overlay
-			A.overlays += overlay
-
-		current_overlay = overlay
-
-		// Update turfs
-		for (var/turf/simulated/snow/T in block(locate(1, 1, 1), locate(world.maxx, world.maxy, 1)))
-			// Update temperature
-			T.temperature = temperature
+		..()
 
 		// Determine next pattern
 		switch(rand(100))
@@ -97,22 +94,13 @@ var/global/datum/controller/weather_system/weather_master
 // 50% chance of dropping to light.
 // 50% chance of escalating to blizzard.
 /datum/weather/pattern/medium
-	var/static/icon/overlay = new('snow.dmi', "snowfall_light")
+	overlay = new('snow.dmi', "snowfall_light")
 
 	Setup()
-		var/temperature = rand(TN10C, T0C)
+		target_temperature = rand(TN10C, T0C)
 
 		// Update areas
-		for(var/area/tundra/A)
-			A.overlays -= current_overlay
-			A.overlays += overlay
-
-		current_overlay = overlay
-
-		// Update turfs
-		for (var/turf/simulated/snow/T in block(locate(1, 1, 1), locate(world.maxx, world.maxy, 1)))
-			// Update temperature
-			T.temperature = temperature
+		..()
 
 		// Determine next pattern
 		switch(rand(100))
@@ -132,22 +120,13 @@ var/global/datum/controller/weather_system/weather_master
 // 20% chance of escalating to superblizzard.
 // 10% chance of dropping to light.
 /datum/weather/pattern/blizzard
-	var/static/icon/overlay = new('snow.dmi', "snowfall")
+	overlay = new('snow.dmi', "snowfall")
 
 	Setup()
-		var/temperature = rand(TN60C, TN40C)
+		target_temperature = rand(TN60C, TN40C)
 
 		// Update areas
-		for(var/area/tundra/A)
-			A.overlays -= current_overlay
-			A.overlays += overlay
-
-		current_overlay = overlay
-
-		// Update turfs
-		for(var/turf/simulated/snow/T in block(locate(1, 1, 1), locate(world.maxx, world.maxy, 1)))
-			// Update temperature
-			T.temperature = temperature
+		..()
 
 		// Determine next pattern
 		switch(rand(100))
@@ -155,7 +134,7 @@ var/global/datum/controller/weather_system/weather_master
 				weather_master.next = new /datum/weather/pattern/medium
 			if(70 to 90)
 				weather_master.next = new /datum/weather/pattern/superblizzard
-				command_alert("Severe weather patterns are approaching the station, seek refuge immediatly.", "Weather Alert")
+				command_alert("Extreme weather patterns are forming around the station, seek refuge immediatly.", "Weather Alert")
 			if(90 to 100)
 				weather_master.next = new /datum/weather/pattern/light
 
@@ -167,30 +146,24 @@ var/global/datum/controller/weather_system/weather_master
 // Exposure with any amount of insulation will result in almost instant death.
 // Short duration.
 // 70% chance of dropping to calm.
-// 20% chance of dropping to medium.
+// 20% chance of dropping to light.
 // 10% chance of dropping to blizzard.
 /datum/weather/pattern/superblizzard
-	var/static/icon/overlay = new('snow.dmi', "snowfall_heavy")
+	overlay = new('snow.dmi', "snowfall_heavy")
 
 	Setup()
+		// Damn thats cold
+		target_temperature = TCMB
+
 		// Update areas
-		for(var/area/tundra/A)
-			A.overlays -= current_overlay
-			A.overlays += overlay
-
-		current_overlay = overlay
-
-		// Update turfs
-		for (var/turf/simulated/snow/T in block(locate(1, 1, 1), locate(world.maxx, world.maxy, 1)))
-			// Update temperature
-			T.temperature = TN80C
+		..()
 
 		// Determine next pattern
 		switch(rand(100))
 			if(0 to 70)
 				weather_master.next = new /datum/weather/pattern/calm
 			if(70 to 90)
-				weather_master.next = new /datum/weather/pattern/medium
+				weather_master.next = new /datum/weather/pattern/light
 			if(90 to 100)
 				weather_master.next = new /datum/weather/pattern/blizzard
 
