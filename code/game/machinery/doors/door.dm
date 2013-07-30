@@ -180,23 +180,27 @@
 
 	proc/update_icon()
 		if(density)
-			icon_state = "door1"
+			icon_state = "door_closed"
 		else
-			icon_state = "door0"
+			icon_state = "door_open"
 		return
 
 	proc/animate(animation)
 		switch(animation)
 			if("opening")
+				if(overlays) overlays = null
 				if(p_open)
-					flick("o_doorc0", src)
+					icon_state = "o_door_opening" //can not use flick due to BYOND bug updating overlays right before flicking
 				else
-					flick("doorc0", src)
+					flick("door_opening", src)
 			if("closing")
+				if(overlays) overlays = null
 				if(p_open)
-					flick("o_doorc1", src)
+					flick("o_door_closing", src)
 				else
-					flick("doorc1", src)
+					flick("door_closing", src)
+			if("spark")
+				flick("door_spark", src)
 			if("deny")
 				flick("door_deny", src)
 		return

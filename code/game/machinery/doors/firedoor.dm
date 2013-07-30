@@ -4,7 +4,7 @@
 /obj/machinery/door/firedoor
 	name = "Firelock"
 	icon = 'door_fire.dmi'
-	icon_state = "door0"
+	icon_state = "door_open"
 	opacity = 0
 	density = 0
 	canglass = 0
@@ -63,7 +63,7 @@
 				src.close()
 		src.nextstate = null
 
-/obj/machinery/door/firedoor/border_only
+/obj/machinery/door/firedoor
 	CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 		if(air_group)
 			var/direction = get_dir(src,target)

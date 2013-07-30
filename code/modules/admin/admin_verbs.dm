@@ -39,7 +39,6 @@
 
 		if ("Coder")
 			src.holder.level = 5
-			verbs += /proc/CreateBans
 
 		if ("Senior Admin")
 
