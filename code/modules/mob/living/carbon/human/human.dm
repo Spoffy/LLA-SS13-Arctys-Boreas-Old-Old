@@ -7,10 +7,6 @@
 		dna = new /datum/dna( null )
 
 	spawn (1)
-		anatomy = new /datum/anatomy(src)
-
-		anatomy.add(new /datum/organ/external/chest)
-
 		var/datum/organ/external/chest/chest = new /datum/organ/external/chest( src )
 		chest.owner = src
 		var/datum/organ/external/groin/groin = new /datum/organ/external/groin( src )

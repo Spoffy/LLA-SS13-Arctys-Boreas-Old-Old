@@ -46,7 +46,7 @@
 
 // == Mars-related areas start here
 /area/surface
-	name = "Planet Surface"
+	name = "surface"
 	icon = 'areas.dmi'
 	icon_state = "surface"
 	requires_power = 0

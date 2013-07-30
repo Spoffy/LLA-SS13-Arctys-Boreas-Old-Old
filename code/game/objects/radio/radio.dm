@@ -145,11 +145,8 @@
 		//Retrieve list of devices that can hear.
 		var/list/receive = list()
 
-		world << "Length: [length(radio_connection.devices)]"
 		for (var/obj/item/device/radio/R in radio_connection.devices)
-			world << "[R] and [R.name] and [R.loc.name]"
 			if(R.accept_rad(src, message))
-				world << "Showing Message at [R.x],[R.y],[R.z]" //DEBUG
 				for (var/i in R.send_hear())
 					if (!(i in receive))
 						receive += i

@@ -1,15 +1,6 @@
-
-
-
-
-/obj/machinery/door/firedoor/border_only
-	name = "Firelock"
-	icon = 'door_fire2.dmi'
-	icon_state = "door0"
-
 /obj/machinery/door/poddoor
 	name = "Podlock"
-	icon = 'rapid_pdoor.dmi'
+	icon = 'door_pdoor.dmi'
 	icon_state = "pdoor1"
 	var/id = 1.0
 

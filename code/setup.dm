@@ -58,7 +58,12 @@
 #define PLASMA_MINIMUM_OXYGEN_PLASMA_RATIO	30
 #define PLASMA_OXYGEN_FULLBURN				10
 
+#define TN80C 193.15				//-80degC
+#define TN60C 213.15				//-60degC
+#define TN40C 233.15				//-40degC
+#define TN10C 263.15
 #define T0C 273.15					// 0degC
+#define T10C 283.15
 #define T20C 293.15					// 20degC
 #define TCMB 2.7					// -270.3degC
 
