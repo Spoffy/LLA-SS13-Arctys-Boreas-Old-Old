@@ -4,7 +4,7 @@ More than 1, reaction increases, less than 1, reaction decreases.
 I'm well aware the way the reactor starts and runs is actually bad physics, but it actually makes for a suprisingly good system.
 */
 
-//TODO - Add buttons to allow faster insertion. Whole cooling + power system. Balancing. Make trigger to turn off emergency shutdown. Meltdowns. Radiation. Icons. Control rod decay. Anything else you might have forgotten.
+//TODO - Whole cooling + power system. Balancing. Make trigger to turn off emergency shutdown. Meltdowns. Radiation. Icons. Control rod decay. Anything else you might have forgotten.
 
 
 /obj/machinery/power/nuclear_power/reactor
@@ -86,6 +86,7 @@ I'm well aware the way the reactor starts and runs is actually bad physics, but 
 		//TODO WHEN TEMP CONTROL COOTED
 
 		fuel_control.use_fuel(reaction_rate/10)
+		rod_control
 
 		for(var/user in users)
 			update_menu(user)
@@ -177,16 +178,18 @@ I'm well aware the way the reactor starts and runs is actually bad physics, but 
 		<table border = 0 style='table-layout=fixed;font-family=Courier New;font-weight=bold;text-align:center;'>
 		<tr><td><button onclick='window.location = "?src=\ref[src];startup=1;mob=\ref[user];";'>Start up Reactor</button></td></tr>
 		<tr><td><button onclick='window.location = "?src=\ref[src];shutdown=1;mob=\ref[user];";'>Emergency Shutdown</button></td></tr>
+		<tr><td><button onclick='window.location = "?src=\ref[src];insert=5;mob=\ref[user];";'>&#x25B2;</button></td></tr>
 		<tr><td><button onclick='window.location = "?src=\ref[src];insert=1;mob=\ref[user];";'>&#x25B2;</button></td></tr>
 		<tr><td>Insertion</td></tr>
 		<tr><td><button onclick='window.location = "?src=\ref[src];retract=1;mob=\ref[user];";'>&#x25BC;</button></td></tr>
+		<tr><td><button onclick='window.location = "?src=\ref[src];retract=5;mob=\ref[user];";'>&#x25BC;</button></td></tr>
 		<tr><td><button onclick='window.location = "?src=\ref[src];maintain=1;mob=\ref[user];";'>Maintain</button></td></tr>
 		<tr><td><button onclick='window.location = "?src=\ref[src];close_user=1;mob=\ref[user];";'>Close</button></td></tr>
 		</table>
 		</center>
 		</body>
 		"}
-		user << browse(html,"window=engine_control;can_resize=0;size=300x500;can_close=0;")
+		user << browse(html,"window=engine_control;can_resize=0;size=300x560;can_close=0;")
 
 	attack_hand(mob/user)
 		if(!(user in users))
@@ -217,13 +220,13 @@ I'm well aware the way the reactor starts and runs is actually bad physics, but 
 		else if(href_list["retract"])
 			if(!rod_control) return
 			var/add = text2num(href_list["retract"])
-			rod_control.add_insertion(add)
+			rod_control.add_insertion(-add)
 			update_menu(user)
 		else if(href_list["maintain"])
 			if(maintain_reaction)
 				maintain_reaction = 0
 			else
-				maintain_reaction = round(reaction_rate)
+				maintain_reaction = round(reaction_rate,1)
 			update_menu(user)
 
 

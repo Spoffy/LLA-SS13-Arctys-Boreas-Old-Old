@@ -120,7 +120,18 @@
 		control_rods -= C
 		user.put_in_hand(C)
 
-	proc/decay_rods()
+	proc/decay_rods(amt)
+		var/list/todo = control_rods.Copy() //Make a new list containing all the control rods.
+		var/total_used = 0 //Amount of fuel used so far, up to a maximum of fuel_amt
+		for(var/i = 1; i <= length(control_rods);i++) //Looping through once for each rod
+			var/obj/item/weapon/nuclear/control_rod/C = pick(control_rods) //Pick a rod at random
+			var/rod_used = rand( (amt/(2*length(control_rods))) ,((1.5*amt)/length(control_rods)) ) //Calculate fuel used. This can be 0.5*Average fuel per rod or 1.5*Average fuel per rod
+			if( ((total_used + fuel_used) > fuel_amt) || i == length(fuel_rods)) //If we're going to use too much, or it's the last rod, use up enough to reach fuel_amt and no more..
+				fuel_used = fuel_amt - total_used
+			P.use_fuel(fuel_used) //Take the fuel from the rod
+			total_used += fuel_used //Add to total
+			todo -= P //Remove rod from list to prevent reselection
+
 		for(var/obj/item/weapon/nuclear/control_rod/C in control_rods)
 			var/decay = rand(0,1)
 			C.decay(decay)
