@@ -1055,7 +1055,7 @@ Code:
 				if (!P.silent)
 					playsound(P.loc, 'twobeep.ogg', 50, 1)
 					for (var/mob/O in hearers(3, P.loc))
-						O.show_message(text("\icon[P] *[P.ttone]*"))
+						O.show_message(text("\icon[P] *[P.ttone]* - From: [src.owner]: [t]"))
 
 				P.overlays = null
 				P.overlays += image('pda.dmi', "pda-r")

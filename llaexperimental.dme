@@ -542,6 +542,8 @@
 #include "code\WorkInProgress\volcano.dm"
 #include "code\WorkInProgress\Gamer_cad\MapSaves.dm"
 #include "code\WorkInProgress\Gamer_cad\trams.dm"
+#include "code\WorkInProgress\nuclear_power\controller.dm"
+#include "code\WorkInProgress\nuclear_power\cooling.dm"
 #include "code\WorkInProgress\nuclear_power\objects.dm"
 #include "code\WorkInProgress\nuclear_power\reactor.dm"
 #include "code\WorkInProgress\nuclear_power\rod_controller.dm"

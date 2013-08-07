@@ -1,3 +1,15 @@
+/*
+Quick explanation of how this works:
+Two types of kit, custom kits and generated kits.
+> Custom kits are kits in which every stage of construction and every component needed is defined.
+> Generated kits are generated from their name. These are added in initialize.dm. They are stored as kit data datums until they are spawned.
+Initialize is called to add all the generated kits. Just add the kit desired in here.
+
+Kits have a list of required parts and a sequence. The sequence is a list of things that need to be done to the kit to make it spawn, eg, using a screwdriver on it.
+
+Parts and Sequences are stored as datums.
+ */
+
 // Datum used to stored info about stages of construction.
 datum/constructionkit/sequence
 	var/tool = null

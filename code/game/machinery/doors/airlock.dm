@@ -900,5 +900,5 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 
 /obj/machinery/door/airlock/glass
 	name = "Glass Airlock"
-	icon = 'Doorglass.dmi'
+	icon = 'door_basic_glass.dmi'
 	opacity = 0
