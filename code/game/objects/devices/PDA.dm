@@ -2,8 +2,6 @@
 //To-do: new engine monitor, maybe new messaging, new signaler cart??
 //also quartermaster pda I guess
 
-
-
 /obj/item/device/pda
 	name = "PDA"
 	desc = "A portable microcomputer by Thinktronic Systems, LTD. Functionality determined by a preprogrammed ROM cartridge."
@@ -1273,8 +1271,6 @@ Code:
 			if(stored_id)
 				usr.put_in_hand(stored_id)
 				stored_id = 0
-//			if (istype(I, /obj/item/weapon/card/id))
-				usr.drop_item()
 
 
 		if (src.mode == 7 || src.tmode == 1)
