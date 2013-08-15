@@ -63,6 +63,13 @@ var/global/datum/controller/weather_system/weather_master
 		// Last from 6 minutes to 10 minutes.
 		return rand(6 * 10 * 60, 10 * 10 * 60)
 
+	Process()
+		var/change = pick(-1, -1, -2)
+
+		for(var/area/surface/A in world)
+			for (var/turf/unsimulated/snow/T in A)
+				T.adjust_volume(change)
+
 // Causes light amounts of snowfall.
 // Light insulation required to survive for extended exposure times.
 // Medium to long duration.
