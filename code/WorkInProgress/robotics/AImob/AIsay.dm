@@ -1,0 +1,16 @@
+mob/living/robotics/rai/say_quote(var/text)
+	var/ending = copytext(text, length(text))
+
+	if (ending == "?")
+		return "queries, \"[text]\"";
+	else if (ending == "!")
+		return "declares, \"[copytext(text, 1, length(text))]\"";
+
+	return "states, \"[text]\"";
+
+/mob/living/robotics/rai/say_understands(var/other)
+	if (istype(other, /mob/living/silicon/ai))
+		return 1
+	if (istype(other, /mob/living/carbon/human))
+		return 1
+	return ..()
