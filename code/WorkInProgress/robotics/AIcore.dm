@@ -19,3 +19,13 @@
 	Move()
 		return
 
+	afterattack(atom/target, mob/user)
+		if(ai)
+			ai.afterattack(target, user)
+		..()
+
+	attack_self(mob/user)
+		if(ai)
+			ai.attack_self(user)
+		..()
+

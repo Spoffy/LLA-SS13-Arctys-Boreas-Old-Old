@@ -8,6 +8,9 @@ datum/robotics/program
 		usr << "A generic program has been run."
 		return 1
 
+	proc/afterattack(atom/target, mob/user)
+		return 0
+
 
 
 	door_jack
@@ -15,6 +18,6 @@ datum/robotics/program
 		program_id = "door_jack"
 		data_used = 10 //Arbitrary amount for now.
 
-		Run()
-
+		Run(mob/living/robotics/rai/A)
+			html = A.format_console("Activating Door Jack...")
 			return
