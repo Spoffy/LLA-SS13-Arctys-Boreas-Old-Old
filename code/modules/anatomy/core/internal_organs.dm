@@ -1,23 +1,28 @@
 /datum/organ/internal/lungs
-	organ_limit						= 2
-	organ_limit_type				= /datum/organ/internal/lungs
-	organ_broken_action				= ORGAN_BROKEN_ACTION_NONE
+	name							= "lungs"
+	limit							= 2
+	limit_type						= /datum/organ/internal/lungs
+	broken_action					= ORGAN_BROKEN_ACTION_NONE
 
 	Life()
+		if (!..())
+			return FALSE
+
 		if (air_master.current_cycle % 4 == 2)
 			var/datum/air_group/breath = TakeBreath()
 
 			HandleBreath(breath)
 
 			if (breath)
-				anatomy.host.loc.assume_air(breath)
+				organism.loc.assume_air(breath)
 
 	proc/TakeBreath()
-		if (anatomy == null || anatomy.host == null) return null
+		if (organism == null) return null
 
 		var/datum/air_group/breath = null
 
-		if (anatomy.host.internal)
+/*
+		if (organism.internal)
 			if (!anatomy.host.contents.Find(anatomy.host.internal))
 				anatomy.host.internal = null
 
@@ -40,7 +45,7 @@
 		else if (istype(anatomy.host.loc, /obj/))
 			var/obj/location_as_object = anatomy.host.loc
 			location_as_object.handle_internal_lifeform(anatomy.host, BREATH_VOLUME)
-
+*/
 		return breath
 
 	proc/HandleBreath(var/datum/air_group/breath)

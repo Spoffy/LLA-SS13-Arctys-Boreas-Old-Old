@@ -4,17 +4,18 @@
 	var/list/datum/organ/internal/internal_organs 	= list()
 	var/complexity_limit							= 100
 
-	OnChangeAnatomy(var/datum/anatomy/old_anatomy, var/datum/anatomy/new_anatomy)
+	ChangeOrganism(var/mob/organism/new_organism)
 		..()
 
 		for (var/datum/organ/internal/O in internal_organs)
-			O.ChangeAnatomy(new_anatomy)
+			O.ChangeOrganism(new_organism)
 
 	Break()
-		if (..() && organ_break_action == ORGAN_BREAK_ACTION_DELETE)
-			anatomy.RemoveExternalOrgan(src)
+		if (..() && break_action == ORGAN_BREAK_ACTION_DELETE)
+			organism.RemoveExternalOrgan(src)
 
 			for (var/datum/organ/internal/O in internal_organs)
+				internal_organs -= O
 				del O
 
 			del src
@@ -31,7 +32,7 @@
 		if (O == null)
 			return FALSE
 
-		if (O.organ_limit > 0 && LocateOrgans(O.organ_limit_type) >= O.organ_limit)
+		if (O.limit > 0 && LocateOrgans(O.limit_type) >= O.limit)
 			return FALSE
 
 		if (GetInternalComplexity() + O.complexity > complexity_limit)
