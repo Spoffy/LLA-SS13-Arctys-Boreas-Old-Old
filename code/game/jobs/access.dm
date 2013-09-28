@@ -19,24 +19,28 @@
 	access_eva = 18
 	access_heads = 19
 	access_captain = 20
-	access_all_personal_lockers = 21
-	access_chapel_office = 22
-	access_tech_storage = 23
-	access_bar = 24
-	access_janitor = 25
-	access_crematorium = 26
-	access_kitchen = 27
-	access_robotics = 28
-	access_cargo = 29
-	access_construction = 30
-	access_chemistry = 31
-	access_cargo_bot = 32
-	access_mining = 33
-	access_barber = 34
-	access_manufactory = 35
-	access_dummy = 36
-	access_mail = 37
-	access_hangar = 38
+	access_hos = 21
+	access_ce = 22
+	access_hop = 23
+	access_rd = 24
+	access_all_personal_lockers = 25
+	access_chapel_office = 26
+	access_tech_storage = 27
+	access_bar = 28
+	access_janitor = 29
+	access_crematorium = 30
+	access_kitchen = 31
+	access_robotics = 32
+	access_cargo = 33
+	access_construction = 34
+	access_chemistry = 35
+	access_cargo_bot = 36
+	access_mining = 37
+	access_barber = 38
+	access_manufactory = 39
+	access_dummy = 40
+	access_mail = 41
+	access_hangar = 42
 
 
 /obj/var/list/req_access = null
@@ -168,7 +172,7 @@
 	            access_teleporter, access_eva, access_heads, access_captain, access_all_personal_lockers,
 	            access_tech_storage, access_chapel_office, access_kitchen,access_bar, access_janitor, access_crematorium,
 	            access_robotics, access_cargo, access_cargo_bot, access_construction, access_mining, access_barber, access_manufactory,
-	            access_mail, access_hangar)
+	            access_mail, access_hangar, access_hos,	access_ce, access_hop, access_rd)
 
 /proc/get_access_desc(A)
 	switch(A)
