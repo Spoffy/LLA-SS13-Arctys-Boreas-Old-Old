@@ -72,7 +72,7 @@
 
 		src.botcard = new /obj/item/weapon/card/id(src)
 		if(isnull(src.botcard_access) || (src.botcard_access.len < 1))
-			src.botcard.access = get_access("Medical Doctor")
+			src.botcard.access = get_access_values("Medical Doctor")
 		else
 			src.botcard.access = src.botcard_access
 		src.cam = new /obj/machinery/camera(src)

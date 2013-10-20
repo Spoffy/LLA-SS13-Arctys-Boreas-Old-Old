@@ -6,6 +6,9 @@
 
 	var/volume = 40
 
+	proc/adjust_volume(var/amount)
+		set_volume(volume + amount)
+
 	proc/set_volume(var/amount)
 		volume = amount
 		update()

@@ -867,38 +867,72 @@ Airlock index -> wire color are { 9, 4, 6, 7, 5, 8, 1, 2, 3 }.
 	..()
 	return
 
+/obj/machinery/door/airlock
+	glass
+		icon = 'door_basic_glass.dmi'
+		opacity = 0
 
+	external
+		name = "External Airlock"
+		icon = 'door_airlock.dmi'
 
-/obj/machinery/door/airlock/command
-	name = "Airlock"
-	icon = 'door_com.dmi'
-	req_access = list(access_heads)
+	command
+		icon = 'door_com.dmi'
+		req_access = list(access_heads)
 
-/obj/machinery/door/airlock/security
-	name = "Airlock"
-	icon = 'door_sec.dmi'
-	req_access = list(access_security)
+	glass/command
+		icon = 'door_com_glass.dmi'
+		req_access = list(access_heads)
 
-/obj/machinery/door/airlock/engineering
-	name = "Airlock"
-	icon = 'door_eng.dmi'
-	req_access = list(access_engine)
+	security
+		icon = 'door_sec.dmi'
+		req_access = list(access_security)
 
-/obj/machinery/door/airlock/medical
-	name = "Airlock"
-	icon = 'door_med.dmi'
-	req_access = list(access_medical)
+	glass/security
+		icon = 'door_sec_glass.dmi'
+		req_access = list(access_security)
 
-/obj/machinery/door/airlock/maintenance
-	name = "Maintenance Access"
-	icon = 'door_maint.dmi'
-	req_access = list(access_maint_tunnels)
+	engineering
+		icon = 'door_eng.dmi'
+		req_access = list(access_engine)
 
-/obj/machinery/door/airlock/external
-	name = "External Airlock"
-	icon = 'door_airlock.dmi'
+	glass/engineering
+		icon = 'door_eng_glass.dmi'
+		req_access = list(access_engine)
 
-/obj/machinery/door/airlock/glass
-	name = "Glass Airlock"
-	icon = 'door_basic_glass.dmi'
-	opacity = 0
+	medical
+		icon = 'door_med.dmi'
+		req_access = list(access_medical)
+
+	glass/medical
+		icon = 'door_med_glass.dmi'
+		req_access = list(access_medical)
+
+	maintenance
+		name = "Maintenance Access"
+		icon = 'door_maint.dmi'
+		req_access = list(access_maint_tunnels)
+
+	research
+		icon = 'door_research.dmi'
+		req_access = list(access_research)
+
+	glass/research
+		icon = 'door_research_glass.dmi'
+		req_access = list(access_research)
+
+	cargo
+		icon = 'door_basic.dmi'
+		req_access = list(access_cargo)
+
+	glass/cargo
+		icon = 'door_basic_glass.dmi'
+		req_access = list(access_cargo)
+
+	mining
+		icon = 'door_mining.dmi'
+		req_access = list(access_mining)
+
+	glass/mining
+		icon = 'door_mining_glass.dmi'
+		req_access = list(access_mining)
