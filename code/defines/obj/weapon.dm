@@ -240,6 +240,9 @@
 	var/registered = null
 	var/assignment = null
 
+	get_access()
+		return access
+
 /obj/item/weapon/card/id/gold
 	name = "identification card"
 	icon_state = "gold"
@@ -271,7 +274,7 @@
 	registered = "Captain"
 	assignment = "Captain"
 	New()
-		access = get_access("Captain")
+		access = get_access_values("Captain")
 		..()
 
 /obj/item/weapon/cleaner

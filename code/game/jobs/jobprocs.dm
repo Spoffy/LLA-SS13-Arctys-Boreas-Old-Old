@@ -514,7 +514,7 @@
 		C.registered = src.real_name
 		C.assignment = rank
 		C.name = "[C.registered]'s ID Card ([C.assignment])"
-		C.access = get_access(C.assignment)
+		C.access = get_access_values(C.assignment)
 		src.equip_if_possible(C, slot_wear_id)
 	src.equip_if_possible(new /obj/item/weapon/pen(src), slot_r_store)
 	//src.equip_if_possible(new /obj/item/device/radio/signaler(src), slot_belt) // FAREWELL SINGNALERS

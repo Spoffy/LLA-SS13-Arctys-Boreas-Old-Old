@@ -72,7 +72,7 @@
 	New()
 		..()
 		botcard = new(src)
-		botcard.access = get_access("Quartermaster")
+		botcard.access = get_access_values("Quartermaster")
 		cell = new(src)
 		cell.charge = 2000
 		cell.maxcharge = 2000

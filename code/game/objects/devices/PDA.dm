@@ -88,6 +88,9 @@
 /obj/item/device/pda/chaplain
 	icon_state = "pda-holy"
 
+/obj/item/device/pda/get_access()
+	return (stored_id)? stored_id.get_access():list()
+
 /obj/item/weapon/cartridge
 	name = "generic cartridge"
 	desc = "A data cartridge for portable microcomputers."

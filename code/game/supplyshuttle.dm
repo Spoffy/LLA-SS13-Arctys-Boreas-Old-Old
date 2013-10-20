@@ -179,7 +179,7 @@ var/supply_shuttle_points = 50
 	cost = 10
 	containertype = "/obj/crate/secure/plasma"
 	containername = "Plasma assembly crate"
-	access = access_tox
+	access = access_research
 
 /datum/supply_packs/weapons
 	name = "Weapons crate"

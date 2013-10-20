@@ -2360,3 +2360,14 @@
 		return wear_id
 	else
 		return 0
+
+/mob/living/carbon/human/get_access()
+	var/access_list = list()
+
+	var/obj/id = wear_id
+	if(id) access_list += id.get_access()
+
+	var/obj/in_hand = equipped()
+	if(in_hand) access_list += in_hand.get_access()
+
+	return access_list

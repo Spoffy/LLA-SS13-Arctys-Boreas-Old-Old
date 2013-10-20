@@ -290,7 +290,7 @@
 /obj/secure_closet/scientist
 	name = "Scientist Locker"
 
-	req_access = list(access_tox_storage)
+	req_access = list(access_research_storage)
 /obj/secure_closet/chemtoxin
 	name = "Chemistry Locker"
 
