@@ -44,6 +44,364 @@
 	var/list/related			// the other areas of the same type as this
 
 
+// == Engineering Department related areas
+/area/engineering_department
+
+/area/engineering_department/engineering
+	name = "Engineering"
+	icon_state = "engine"
+
+/area/engineering_department/robotics
+	name = "Robotics"
+	icon_state = "robotics"
+
+/area/engineering_department/chief_engineer_office
+	name = "Chief Engineer's Office"
+	icon_state = "ce"
+
+/area/engineering_department/ai_chamber
+	name = "AI Chamber"
+	icon_state = "ai_chamber"
+
+/area/engineering_department/ai_upload
+	name = "AI Upload Chamber"
+	icon_state = "ai_upload"
+
+/area/engineering_department/ai_foyer
+	name = "AI Upload Foyer"
+	icon_state = "ai_foyer"
+
+/area/engineering_department/incinerator
+	name = "Incinerator"
+	icon_state = "incinerator"
+
+/area/engineering_department/engineering_break_room
+	name = "Engineering Break Room"
+	icon_state = "engi_break_room"
+
+/area/engineering_department/ai_maintenance
+	name = "AI Maintenance"
+	icon_state = "ai_maint"
+
+/area/engineering_department/engineering_maintenance
+	name = "Engineering Maintenance"
+	icon_state = "engi_maint"
+
+/area/engineering_department/engineering_locker_room
+	name = "Engineering Locker Room"
+	icon_state = "engi_locker_room"
+
+/area/engineering_department/construction_area
+	name = "Construction Area"
+	icon_state = "construction"
+
+/area/engineering_department/tech_storage
+	name = "Tech Storage"
+	icon_state = "tech_storage"
+
+/area/engineering_department/tech_storage_maintenance
+	name = "Tech Storage Maintenance"
+	icon_state = "tech_maint"
+
+/area/engineering_department/engineering_hallway
+	name = "Engineering Hallway"
+	icon_state = "engine_hallway"
+
+/area/engineering_department/escape_maintenance
+	name = "Escape Maintenance"
+	icon_state = "escape_maint"
+
+/area/engineering_department/emergency_storage
+	name = "Emergency Storage"
+	icon_state = "emergency_storage"
+
+/area/engineering_department/mech_bay
+	name = "Mech Bay"
+	icon_state = "mech_bay"
+
+
+
+
+
+// == Security Department related areas
+/area/security_department
+
+/area/security_department/brig
+	name = "Brig"
+	icon_state = "brig"
+
+/area/security_department/armory
+	name = "Armory"
+	icon_state = "armory"
+
+/area/security_department/detectives_office
+	name = "Detective's Office"
+	icon_state = "detective"
+
+/area/security_department/lawyer
+	name = "Lawyer's Office"
+	icon_state = "lawyer"
+
+/area/security_department/hos
+	name = "Head Of Security's Office"
+	icon_state = "hos"
+
+/area/security_department/warden
+	name = "Warden's Office"
+	icon_state = "warden"
+
+/area/security_department/permabrig
+	name = "PermaBrig"
+	icon_state = "security_sub"
+
+/area/security_department/security_office
+	name = "Security Office"
+	icon_state = "security_sub"
+
+/area/security_department/security_post
+	name = "Security Post"
+	icon_state = "checkpoint1"
+
+/area/security_department/interrogation
+	name = "Interrogation"
+	icon_state = "purple"
+
+/area/security_department/security_hallway
+	name = "Security Hallway"
+	icon_state = "yellow"
+
+/area/security_department/court
+	name = "Courtroom"
+	icon_state = "courtroom"
+
+/area/security_department/security_maintenance
+	name = "Security Maintenance"
+	icon_state = "sec_maint"
+
+// == R&D related areas
+/area/rnd
+
+/area/rnd/locker_room
+	name = "Locker Room"
+	icon_state = "locker"
+
+/area/rnd/arrivals
+	name = "Tram Station"
+	icon_state = "purple"
+
+/area/rnd/dorms
+	name = "Doormitories"
+	icon_state = "crew_quarters"
+
+/area/rnd/cafeteria
+	name = "Cafeteria"
+	icon_state = "cafeteria"
+
+/area/rnd/medbay
+	name = "Medbay"
+	icon_state = "medbay"
+
+/area/rnd/cafe_maint
+	name = "Cafeteria Maintenance"
+	icon_state = "cafe_maint"
+
+/area/rnd/security
+	name = "Security Office"
+	icon_state = "security"
+
+/area/rnd/rd
+	name = "Research Director's Office"
+	icon_state = "rd"
+
+/area/rnd/restroom
+	name = "Restroom"
+	icon_state = "dk_yellow"
+
+/area/rnd/rnd
+	name = "Research and Development"
+	icon_state = "purple"
+
+/area/rnd/toxin_storage
+	name = "Toxin Storage"
+	icon_state = "toxstorage"
+
+/area/rnd/toxin_mixing
+	name = "Toxin Lab"
+	icon_state = "toxlab"
+
+/area/rnd/xenobiology
+	name = "Xenobiology"
+	icon_state = "green"
+
+/area/rnd/xenobiology_cells
+	name = "Xenobiology Research"
+	icon_state = "purple"
+
+/area/rnd/north_hall
+	name = "North Hallway"
+	icon_state = "hallF"
+
+/area/rnd/south_hall
+	name = "South Hallway"
+	icon_state = "hallA"
+
+/area/rnd/east_hall
+	name = "East Hallway"
+	icon_state = "hallS"
+
+/area/rnd/west_hall
+	name = "West Hallway"
+	icon_state = "hallP"
+
+/area/rnd/atmospherics
+	name = "Atmospherics"
+	icon_state = "atmos"
+
+/area/rnd/locker_maint
+	name = "Locker Room Maintenance"
+	icon_state = "green"
+
+/area/rnd/disposals
+	name = "Disposal"
+	icon_state = "disposal"
+
+/area/rnd/science_maint
+	name = "Science Maintenance"
+	icon_state = "green"
+
+/area/rnd/storage
+	name = "Storage"
+	icon_state = "primarystorage"
+
+
+
+
+// == Command Department related areas
+/area/command_department
+
+/area/command_department/bridge
+	name = "Bridge"
+	icon_state = "bridge"
+
+/area/command_department/conference
+	name = "Conference"
+	icon_state = "conference"
+
+/area/command_department/emergency_storage
+	name = "Bridge Emergency Storage"
+	icon_state = "emergency_storage"
+
+/area/command_department/hop
+	name = "Head of Personnel's Office"
+	icon_state = "hop"
+
+/area/command_department/captain
+	name = "Captain's Office"
+	icon_state = "captain"
+
+/area/command_department/bridge_maintenance
+	name = "Captain's Office"
+	icon_state = "bridge_maint"
+
+/area/command_department/eva_maintenance
+	name = "EVA Maintenance"
+	icon_state = "eva_maint"
+
+/area/command_department/eva_maintenance
+	name = "Bridge Maintenance"
+	icon_state = "bridge_maint"
+
+/area/command_department/teleporter
+	name = "Teleporter"
+	icon_state = "teleporter"
+
+/area/command_department/eva
+	name = "EVA"
+	icon_state = "eva"
+
+// == Crew Department related areas
+/area/crew
+
+/area/crew/kitchen
+	name = "Kitchen"
+	icon_state = "kitchen"
+
+/area/crew/bar
+	name = "Bar"
+	icon_state = "bar"
+
+/area/crew/bar_storage
+	name = "Bar Storage"
+	icon_state = "green"
+
+/area/crew/library
+	name = "Library"
+	icon_state = "library"
+
+/area/crew/chapel
+	name = "Chapel"
+	icon_state = "chapel"
+
+/area/crew/chapel_office
+	name = "Chapel Office"
+	icon_state = "chapeloffice"
+
+/area/crew/hydroponics
+	name = "Hydroponics"
+	icon_state = "purple"
+
+/area/crew/theater
+	name = "Theater"
+	icon_state = "dk_yellow"
+
+/area/crew/custrodial_office
+	name = "Custrodial Office"
+	icon_state = "janitor"
+
+/area/crew/storage_area1
+	name = "Storage"
+	icon_state = "primarystorage"
+
+/area/crew/storage_area2
+	name = "Storage"
+	icon_state = "primarystorage"
+
+/area/crew/crew_department_maint
+	name = "Crew Department Maintenance"
+	icon_state = "crew_maint"
+
+
+// == Cargo Department related areas
+/area/cargo_department
+
+/area/cargo_department/cargo_office
+	name = "Cargo Office"
+	icon_state = "purple"
+
+/area/cargo_department/quarter_master
+	name = "QM's Office"
+	icon_state = "quartoffice"
+
+/area/cargo_department/cargo_bay
+	name = "Cargo Bay"
+	icon_state = "hangar"
+
+/area/cargo_department/cargo_maintenance
+	name = "Cargo Maintenance"
+	icon_state = "cargo_maint"
+
+/area/cargo_department/mining_dock_north
+	name = "North Mining Dock"
+	icon_state = "green"
+
+/area/cargo_department/mining_dock_south
+	name = "South Mining Dock"
+	icon_state = "dk_yellow"
+
+
+// == Mars areas end here
+
+
 // == Mars-related areas start here
 /area/surface
 	name = "surface"
