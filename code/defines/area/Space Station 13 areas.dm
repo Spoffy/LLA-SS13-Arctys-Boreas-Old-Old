@@ -273,6 +273,14 @@
 	name = "Storage"
 	icon_state = "primarystorage"
 
+/area/rnd/powerstorage
+	name = "Power Storage"
+	icon_state = "security_sub"
+
+/area/rnd/eva
+	name = "Research EVA"
+	icon_state = "eva"
+
 
 
 
@@ -407,7 +415,6 @@
 	name = "surface"
 	icon = 'areas.dmi'
 	icon_state = "surface"
-	requires_power = 0
 
 /area/ops
 	name = "Operations Center"
