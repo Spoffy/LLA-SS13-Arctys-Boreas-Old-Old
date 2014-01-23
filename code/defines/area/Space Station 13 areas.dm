@@ -44,6 +44,62 @@
 	var/list/related			// the other areas of the same type as this
 
 
+
+// == Medbay Department related areas
+/area/medbay_department
+
+/area/medbay_department/medbay_hall
+	name = "Medbay"
+	icon_state = "medbay"
+
+/area/medbay_department/storage
+	name = "Medbay Storage"
+	icon_state = "storage"
+
+/area/medbay_department/genetics
+	name = "Genetics Lab"
+	icon_state = "medresearch"
+
+/area/medbay_department/surgery
+	name = "Surgery"
+	icon_state = "yellow"
+
+/area/medbay_department/morgue
+	name = "Morgue"
+	icon_state = "morgue"
+
+/area/medbay_department/chemistry
+	name = "Chemistry Lab"
+	icon_state = "chem"
+
+/area/medbay_department/medbay_lobby
+	name = "Medbay Lobby"
+	icon_state = "security_sub"
+
+/area/medbay_department/cmo
+	name = "Chief Medical Officer's Office"
+	icon_state = "purple"
+
+/area/medbay_department/break_room
+	name = "Medbay Break Room"
+	icon_state = "green"
+
+/area/medbay_department/virology
+	name = "Virology Lab"
+	icon_state = "green"
+
+/area/medbay_department/treatment_centre
+	name = "Medbay Treatment centre"
+	icon_state = "purple"
+
+/area/medbay_department/west_maintenance
+	name = "Medbay West Maintenance"
+	icon_state = "pmaint"
+
+/area/medbay_department/east_maintenance
+	name = "Medbay East Maintenance"
+	icon_state = "pmaint"
+
 // == Engineering Department related areas
 /area/engineering_department
 
