@@ -9,6 +9,7 @@
 	density = 0
 	canglass = 0
 	canemag = 0
+	layer = 2.9
 
 	var/blocked = null
 	var/nextstate = null

@@ -45,6 +45,41 @@
 
 
 
+// == Doormitories related areas
+/area/doormitories
+
+/area/doormitories/cyro_pods
+	name = "Cyro Pods Area"
+	icon_state = "green"
+
+/area/doormitories/locker_room
+	name = "Locker Room"
+	icon_state = "locker"
+
+/area/doormitories/restroom
+	name = "Private Restroom"
+	icon_state = "restrooms"
+
+/area/doormitories/assistants_lounge
+	name = "Assistant's Lounge"
+	icon_state = "crew_quarters"
+
+/area/doormitories/central_hallway
+	name = "Doormitories Central Hallway"
+	icon_state = "security_sub"
+
+/area/doormitories/north_hallway
+	name = "Doormitories North Hallway"
+	icon_state = "yellow"
+
+/area/doormitories/doormitories_maintenance
+	name = "Doormitories Maintenance Area"
+	icon_state = "crew_maint"
+
+/area/doormitories/doorm_cabins
+	name = "Doorm Cabins"
+	icon_state = "crew_quarters"
+
 // == Medbay Department related areas
 /area/medbay_department
 
@@ -462,19 +497,19 @@
 	name = "South Mining Dock"
 	icon_state = "dk_yellow"
 
-
-// == Mars areas end here
-
-
 // == Mars-related areas start here
 /area/surface
 	name = "surface"
 	icon = 'areas.dmi'
 	icon_state = "surface"
 
+//------------------------------------ Unused, has to be removed from code to delete this crap. Infernus~~
+
 /area/ops
 	name = "Operations Center"
 	icon_state = "ops"
+
+
 
 /area/colony
 
@@ -526,10 +561,10 @@
 	icon_state = "start"
 
 
-
 //These are shuttle areas, they must contain two areas in a subgroup if you want to move a shuttle from one
 //place to another. Look at escape shuttle for example.
 
+// UNUSED, CANT DELETE
 /area/shuttle //DO NOT TURN THE SD_LIGHTING STUFF ON FOR SHUTTLES. IT BREAKS THINGS.
 	requires_power = 0
 	luminosity = 1
@@ -567,6 +602,8 @@
 
 /area/shuttle/prison/planet
 	icon_state = "shuttle"
+// UNUSED, CANT DELETE
+
 
 // === Trying to remove these areas:
 
@@ -579,6 +616,8 @@
 	icon_state = "start"
 
 // === end remove
+
+
 
 
 /area/prison/arrival_airlock
